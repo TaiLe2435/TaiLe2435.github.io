@@ -217,10 +217,10 @@ export const education = [
         icon: "university",
     },
     {
-        title: "B.S. in Mechatronics Engineering with a Minor in Electrical Engineering",
+        title: "B.S. in Mechatronics Engineering",
         duration: "2019 - 2023",
         subtitle: "Northern Illinois University",
-        details: [],
+        details: ["Minor in Electrical Engineering"],
         tags: ["Summa Cum Laude, 3.93 GPA", 
         "Control Systems", 
         "Design of Mechatronics Systems", 
