@@ -1,6 +1,6 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
+    "Hello, welcome to my engineering portfolio.",
+    'I am a roboticist with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
     `Eager to apply my technical expertise and in-depth
     product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
     "Thanks for taking the time to learn a little about me!",
@@ -275,13 +275,6 @@ export const footer = [
                 text: "Buy me a coffee",
                 link: "https://www.buymeacoffee.com/r194dME8y",
             },
-        ],
-    },
-    {
-        label: "copyright-text",
-        data: [
-            "Made with &hearts; by Vinay Somawat.",
-            "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
 ];
