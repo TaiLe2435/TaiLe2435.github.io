@@ -140,14 +140,14 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        title: "Northern Illinois Univeresity | ARM and Omron Lab",
+        duration: "October 2021 - Present",
+        subtitle: "Research and Teaching Assistant",
         details: [
             "Working in support and escalation team."
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "truck ",
+        tags: ["Teaching", "LaTex", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning", "Computer Engineering", "Engineering Dynamics", "Dynamics and Controls", "Mechanical Vibrations"],
+        icon: "university",
     },
     {
         title: "Biofourmis India Private Limited",
