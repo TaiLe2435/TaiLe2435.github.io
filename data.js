@@ -1,6 +1,6 @@
 export const bio = [
-    "Hello, welcome to my engineering portfolio.",
-    'I am a roboticist with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
+    "Hello there, This is Vinay Somawat.",
+    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
     `Eager to apply my technical expertise and in-depth
     product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
     "Thanks for taking the time to learn a little about me!",
@@ -230,16 +230,8 @@ export const footer = [
         label: "Dev Profiles",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
                 text: "GitHub",
-                link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
+                link: "https://github.com/TaiLe2435",
             },
         ],
     },
@@ -247,16 +239,8 @@ export const footer = [
         label: "Resources",
         data: [
             {
-                text: "Enable Dark/Light Mode",
+                text: "Dark Mode",
                 func: "enableDarkMode()",
-            },
-            {
-                text: "Print this page",
-                func: "window.print()",
-            },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
             },
         ],
     },
@@ -265,15 +249,7 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
-            },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
+                link: "https://www.linkedin.com/in/tommy-le24//",
             },
         ],
     },
