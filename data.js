@@ -1,8 +1,8 @@
 export const bio = [
     "Welcome to my project portfolio!",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    `I am a roboticist with experience in robot kinematics/dynamics, control theory, mechatronics, robotics, and embedded software and firmware development.`,
+    `Much of my work has involved the development and implementation of algorithms onto robotic systems. Examples of problems I have worked on deal with 
+    state estimation and control, path planning, mechatronic system integration, robotic hardware and software development, automation, and artificial intelligence.`,
     "Thanks for taking the time to learn a little about me!",
 ];
 
