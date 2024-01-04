@@ -144,7 +144,7 @@ export const experience = [
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
         details: [
-            "Working in support and escalation team."
+            `Example bullet`,
         ],
         tags: ["Teaching", "LaTex", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning", "Computer Engineering", "Engineering Dynamics", "Dynamics and Controls", "Mechanical Vibrations"],
         icon: "university",
@@ -186,7 +186,8 @@ export const education = [
         title: "M.S. in Mechanical Engineering",
         duration: "2022 - 2024",
         subtitle: "Northern Illinois University",
-        details: ["Focus in Robotics, Dynamics, and Controls",
+        details: ["Thesis: Magnetometer-less Estimation of a Mobile Robot using Cascaded Kalman Filters",
+            "Focus in Robotics, Dynamics, and Controls",
             "Summa Cum Laude, 4.00 GPA"],
         tags: [
             "Advanced Computing in Mechanical Engineering",
