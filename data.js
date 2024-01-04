@@ -9,45 +9,33 @@ export const bio = [
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "Python, C, C++, C#, JavaScript, CSS, HTML, Lua",
         color: "1",
         percentage: "80",
     },
     {
-        title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        title: "Software/Frameworks",
+        skillName: "ROS, OpenCV, Linux, SolidWorks, MATLAB, Simulink, TensorFlow, Godot, Gazebo, Rviz, Git, ANSYS, COMSOL, LabVIEW, Perl, VxWorks, REST, Angular",
         color: "6",
         percentage: "70",
     },
     {
-        title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        title: "Fabrication and Rapid Prototyping",
+        skillName: "3D printing, power/hand tools, welding, soldering, water jet, machining, drill press",
         color: "4",
         percentage: "70",
     },
     {
-        title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        title: "Design",
+        skillName: "SolidWorks, AutoCAD, PSpice, LTSpice, KiCad, Blender",
         color: "7",
         percentage: "70",
     },
     {
-        title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        title: "Hardware and Robots",
+        skillName: "PLCs, HMIs, Arduino, Raspberry Pi, ESP32, DC motors, servos, linear actuators, sonar, radar, LiDAR, cameras, IMUs, Kinect cameras, Phantom Haptic Device, Baxter Robot, Sphero-mini, iRobot Create, Cobots",
         color: "3",
         percentage: "80",
-    },
-    {
-        title: "Analytics",
-        skillName: "CleverTap, Countly",
-        color: "5",
-        percentage: "50",
-    },
-    {
-        title: "IDE",
-        skillName: "VS Code",
-        color: "6",
-        percentage: "70",
     },
 ];
 
