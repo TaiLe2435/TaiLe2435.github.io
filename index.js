@@ -449,10 +449,9 @@ import { URLs } from './user-data/urls.js';
   fetchBlogsFromMedium(medium);
   fetchGitConnectedData(gitConnected);
   
-  populateProjects(webProjects, "web-projects");
-  populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+  populateProjects(roboticsProjects, "robotics-projects");
+  populateProjects(automationProjects, "automation-projects");
+  populateProjects(simulationProjects, "simulation-projects");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
