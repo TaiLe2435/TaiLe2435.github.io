@@ -450,7 +450,7 @@ import { URLs } from './user-data/urls.js';
   fetchGitConnectedData(gitConnected);
   
   populateProjects(roboticsProjects, "robotics-projects");
-  populateProjects(atuomationProjects, "automation-projects");
+  populateProjects(automationProjects, "automation-projects");
   populateProjects(simulationProjects, "simulation-projects");
   
   populateExp_Edu(experience, "experience");
