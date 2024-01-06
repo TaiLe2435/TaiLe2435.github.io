@@ -74,7 +74,7 @@ export const projects = {
             techStack: ["HTML", "Bootstrap", "JavaScript"],
         },
     ],
-    softwareProjects: [ // automation
+    automationProjects: [ // automation
         {
             projectName: "Pizza Ordering ChatBot",
             image: "images/pizzaorderchatbot.png",
@@ -100,7 +100,7 @@ export const projects = {
             techStack: ["Tkinter", "Openxlpy", "Python"],
         },
     ],
-    androidProjects: [ // simulation
+    simulationProjects: [ // simulation
         {
             projectName: "NITW-CSE",
             image: "images/nitwcse.jpg",
@@ -116,24 +116,6 @@ export const projects = {
                 "The Application display the webpages of website careerhigh.in in android devices.",
             preview: "https://github.com/vinaysomawat/CareerHigh-Android",
             techStack: ["JAVA", "XML", "Android"],
-        },
-    ],
-    freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
         },
     ],
 };
