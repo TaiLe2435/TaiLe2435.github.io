@@ -1,6 +1,6 @@
 export const bio = [
     "Welcome to my project portfolio!",
-    `I am a roboticist with experience in robot kinematics/dynamics, control theory, mechatronics, robotics, and embedded software and firmware development.`,
+    `I am a roboticist with experience in robot kinematics/dynamics, control theory, mechatronics, and embedded software development.`,
     `Much of my work has involved the development and implementation of algorithms onto robotic systems. Examples of problems I have worked on deal with 
     state estimation and control, path planning, mechatronic system integration, robotic hardware and software development, automation, and artificial intelligence.`,
     "Thanks for taking the time to learn a little about me!",
@@ -143,41 +143,33 @@ export const experience = [
         title: "Northern Illinois Univeresity | ARM and Omron Lab",
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
-        details: [
-            `Example bullet`,
-        ],
+        details: [],
         tags: ["Teaching", "LaTex", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning", "Computer Engineering", "Engineering Dynamics", "Dynamics and Controls", "Mechanical Vibrations"],
         icon: "university",
     },
     {
-        title: "Company",
-        duration: "2022 - 2023",
-        subtitle: "Title",
-        details: [
-            `Example bullet`,
-        ],
-        tags: ["tag1", "tag2"],
-        icon: "university",
+        title: "Yaskawa America Inc. - Motion and Drives",
+        duration: "May 2023 - August 2023",
+        subtitle: "Embedded Systems Engineering Intern",
+        details: [],
+        tags: ["Cyber Security", "Full-Stack Development","Automated Testing", "Manual Testing", "Motion Planning"],
+        icon: "microchip",
     },
     {
-        title: "Company",
-        duration: "2022 - 2023",
-        subtitle: "Title",
-        details: [
-            `Example bullet`,
-        ],
-        tags: ["tag1", "tag2"],
-        icon: "university",
+        title: "Argonne National Laboratory",
+        duration: "May 2022 - January 2023",
+        subtitle: "Robotics Research Assistant",
+        details: [],
+        tags: ["Haptics", "Teleoperation", "Manipulation", "Human Robot Interaction", "Virtual Reality"],
+        icon: "code",
     },
     {
-        title: "Company",
-        duration: "2022 - 2023",
-        subtitle: "Title",
-        details: [
-            `Example bullet`,
-        ],
-        tags: ["tag1", "tag2"],
-        icon: "university",
+        title: "PBC Linear: Applied Cobotics",
+        duration: "May 2021 - August 2022",
+        subtitle: "Robotics Engineering Intern",
+        details: [],
+        tags: ["Automation", "Control Systems", "Design and Fabrication"],
+        icon: "gears",
     },
 ];
 
