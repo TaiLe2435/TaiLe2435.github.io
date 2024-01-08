@@ -1,11 +1,9 @@
 export const bio = [
-    "Welcome to my project portfolio!",
     `I have attended Northern Illinois University since 2019 where I graduated with a Bachelor's of Science in Mechatronics Engineering and am currently working 
     towards my Master's in Mechanical Engineering. During my time at NIU, I have participated in the development of autonomous robots in Dr. Ji-Chul Ryu's Autonomous Robotic Manipulation Laboratory.`,
     `From my experiences I have developed skills in robot kinematics/dynamics, control theory, mechatronics, and embedded software development.`,
     `Much of my work has involved the development and implementation of algorithms onto robotic systems. Examples of problems I have worked on deal with 
     state estimation and control, path planning, mechatronic system integration, robotic hardware and software development, automation, and artificial intelligence.`,
-    "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
