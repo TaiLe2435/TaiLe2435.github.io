@@ -43,7 +43,7 @@ export const projects = {
     roboticsProjects: [ // robotics
         {
             projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/pong.png",
+            image: "images/AlgoBD.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
@@ -62,12 +62,12 @@ export const projects = {
     ],
     simulationProjects: [ // simulation
         {
-            projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/pong.png",
+            projectName: "Finite Element Model of Tissue Deformation for Robotic Surgery Training",
+            image: "images/plane displacement.png",
             summary:
-                "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
-            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen"],
+                "Performed structural analysis in COMSOL to emulate the behavior of a surgical probe with tissue.",
+            preview: "https://drive.google.com/file/d/1j7RRzrjk2dHGpqjIXVMlCyht4XTKhH_W/view?usp=sharing",
+            techStack: ["COMSOL", "FEM"],
         },
     ],
 };
@@ -77,7 +77,8 @@ export const experience = [
         title: "Northern Illinois Univeresity | ARM and Omron Lab",
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
-        details: ["Worked on control and estimation problems for navigation and manipulation of autonomous robotic systems. Led lab sessions for introductory engineering courses including Computer Engineering, Engineering Dynamics, Dynamic Systems and Control, and Mechanical Vibrations."],
+        details: [`Worked on control and estimation problems for navigation and manipulation of autonomous robotic systems`,
+                  `Led lab sessions for introductory engineering courses including Computer Engineering, Engineering Dynamics, Dynamic Systems and Control, and Mechanical Vibrations`],
         tags: ["Teaching", "Robot Development", "State Estimation and Control", "Computer Vision", "Reinforcement Learning"],
         icon: "university",
     },
@@ -85,7 +86,9 @@ export const experience = [
         title: "Yaskawa America Inc. - Motion and Drives",
         duration: "May 2023 - August 2023",
         subtitle: "Embedded Systems Engineering Intern",
-        details: ["Participated in full stack development of encryption and decryption methods for Yaskawa's MPi controllers, created automated test cases for major firmware and hardware releases, and created motion planning functions for manipulators."],
+        details: [`Participated in full stack development of encryption and decryption methods for Yaskawa's MPi controllers`,
+                  `Created automated test cases for major firmware and hardware releases`, 
+                  `Developed motion planning functions for manipulators`],
         tags: ["Cyber Security", "Full-Stack Development","Automated Testing", "Manual Testing", "Motion Planning"],
         icon: "microchip",
     },
@@ -93,7 +96,7 @@ export const experience = [
         title: "Argonne National Laboratory",
         duration: "May 2022 - January 2023",
         subtitle: "Robotics Research Assistant",
-        details: ["Developed a haptic telerobotic system using a Baxter Robot, Phantom Omni stylus, and multiple different sensors and actuators to provvide users an intuitive platform to manipulate objects in a virtual environment"],
+        details: ["Developed a haptic telerobotic system using a Baxter Robot, Phantom Omni stylus, and multiple different sensors and actuators to provide users an intuitive platform to manipulate objects in a virtual environment"],
         tags: ["Haptics", "Teleoperation", "Manipulation", "Human Robot Interaction", "Virtual Reality"],
         icon: "code",
     },
