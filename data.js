@@ -43,7 +43,7 @@ export const projects = {
     roboticsProjects: [ // robotics
         {
             projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/temp.png",
+            image: "images/pong.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
@@ -53,7 +53,7 @@ export const projects = {
     automationProjects: [ // automation
         {
             projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/temp.png",
+            image: "images/pong.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
@@ -63,7 +63,7 @@ export const projects = {
     simulationProjects: [ // simulation
         {
             projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/temp.png",
+            image: "images/pong.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
@@ -158,6 +158,10 @@ export const footer = [
             {
                 text: "Dark Mode",
                 func: "enableDarkMode()",
+            },
+            {
+                text: "Resume",
+                link: "https://drive.google.com/file/d/1s1YKa4OGqJSBwDMW4SxOdVAGMJN9Hroj/view?usp=sharing"
             },
         ],
     },
