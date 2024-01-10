@@ -47,17 +47,33 @@ export const projects = {
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
-            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen"],
+            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
+        },
+        {
+            projectName: "Development and Control of a Small-Sized Spherical Robot V2",
+            image: "images/pong.png",
+            summary:
+                "Created and deployed a vision-based control algorithm onto a miniature spherical robot with a custom PCB for swarm robotics.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "KiCad", "3D Printing", "OpenCV"],
+        },
+        {
+            projectName: "Development and Control of a Small-Sized Spherical Robot V1",
+            image: "images/pongv1.png",
+            summary:
+                "Performed complementary filter sensor fusion on IMU sensor data providing accurate pose estimation.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find better link for it, or create a page for it
+            techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
         },
     ],
     automationProjects: [ // automation
         {
-            projectName: "Magnetometer-less Estimation of a Mobile Robot Using Cascaded Kalman Filters",
-            image: "images/pong.png",
+            projectName: "Automated Tolerance Testing System (ATTS)",
+            image: "images/ATTS.png",
             summary:
-                "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
-            techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen"],
+                "Invented a cobot compatible automated quality assurance system based on an AutomationDirect PLC to be placed in a robotic workcell to check tolerances of bearings.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            techStack: ["PLC", "HMI", "Ethernet", "Sensing", "Actuation"],
         },
     ],
     simulationProjects: [ // simulation
@@ -68,6 +84,14 @@ export const projects = {
                 "Performed structural analysis in COMSOL to emulate the behavior of a surgical probe with tissue.",
             preview: "https://drive.google.com/file/d/1j7RRzrjk2dHGpqjIXVMlCyht4XTKhH_W/view?usp=sharing",
             techStack: ["COMSOL", "FEM"],
+        },
+        {
+            projectName: "LQG Controller Design for an Aircraft Model",
+            image: "images/LQG.png",
+            summary:
+                "Designed an LQG controller achieving 0 mean error and minimal variance during steady-state.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            techStack: ["MATLAB", "Kalman filter", "LQR"],
         },
     ],
 };
