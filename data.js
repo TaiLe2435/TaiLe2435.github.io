@@ -81,6 +81,22 @@ export const projects = {
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
             techStack: ["Python", "Raspberry Pi", "Linux", "OpenCV"],
         },
+        {
+            projectName: "Wheeled Mobile Manipulator",
+            image: "images/mob_manip.png",
+            summary:
+                "Designed a mobile manipulator that is controlled using a web-based GUI as a controller.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            techStack: ["C", "Kinematics", "GUI"],
+        },
+        {
+            projectName: "Development of an Automated Guided Vehicle",
+            image: "images/agv.png",
+            summary:
+                "Programmed a Parallax ActivityBot for object detection, line following, and remote operation tasks earning first place for all events.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            techStack: ["C", "Sensing", "Actuation"],
+        },
     ],
     automationProjects: [ // automation
         {
