@@ -61,9 +61,25 @@ export const projects = {
             projectName: "Development and Control of a Small-Sized Spherical Robot V1",
             image: "images/pongv1.png",
             summary:
-                "Performed complementary filter sensor fusion on IMU sensor data providing accurate pose estimation.",
+                "Performed sensor fusion and signal processing on IMU sensor data providing accurate pose estimation for a spherical robot.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find better link for it, or create a page for it
             techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
+        },
+        {
+            projectName: "Development of a Bilateral Haptic Telerobotic System",
+            image: "images/haptics.png",
+            summary:
+                "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            techStack: ["Python", "C++", "ROS", "Gazebo", "Haptics", "Teleoperation", "Human-Robot Interaction"],
+        },
+        {
+            projectName: "Computer Vision Based Autonomous Mobile Robot",
+            image: "images/cv_amr.png",
+            summary:
+                "Programmed an iCreate Robot with a Raspberry Pi and webcam to find pathways, avoid obstacles, and search for obstacles using depth estimation and lane centering and following algorithms.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            techStack: ["Python", "Raspberry Pi", "Linux", "OpenCV"],
         },
     ],
     automationProjects: [ // automation
@@ -94,6 +110,24 @@ export const projects = {
             techStack: ["MATLAB", "Kalman filter", "LQR"],
         },
     ],
+    hapticsProjects: [ // haptics
+    {
+        projectName: "Finite Element Model of Tissue Deformation for Robotic Surgery Training",
+        image: "images/plane displacement.png",
+        summary:
+            "Performed structural analysis in COMSOL to emulate the behavior of a surgical probe with tissue.",
+        preview: "https://drive.google.com/file/d/1j7RRzrjk2dHGpqjIXVMlCyht4XTKhH_W/view?usp=sharing",
+        techStack: ["COMSOL", "FEM"],
+    },
+    {
+        projectName: "LQG Controller Design for an Aircraft Model",
+        image: "images/LQG.png",
+        summary:
+            "Designed an LQG controller achieving 0 mean error and minimal variance during steady-state.",
+        preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+        techStack: ["MATLAB", "Kalman filter", "LQR"],
+    },
+],
 };
 
 export const experience = [
