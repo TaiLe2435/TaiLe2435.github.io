@@ -91,8 +91,40 @@ export const projects = {
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "Sensing", "Actuation"],
         },
+        {
+            projectName: "Cobot Implementation",
+            image: "images/cobot.png",
+            summary:
+                "Programmed, maintained, and improved 4 cobot stations increasing productivity and efficiency.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation", "Cobot Programming", "SolidWorks"],
+        },
+        {
+            projectName: "Automated Trimming Station",
+            image: "images/trimming.png",
+            summary:
+                "Created a PLC and CMI program to allow workers to input variables and have a trimming system cut excess Teflon and adhesives from the sides.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation", "Cobot Programming"],
+        },
+        {
+            projectName: "Hook and Tray Redesign for Automated Lift",
+            image: "images/hook.png",
+            summary:
+                "Designed, cut out, welded, and automated a hook and tray system for an automated lift.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            techStack: ["SolidWorks", "PLC", "UART", "Sensing", "Actuation"],
+        },
+        {
+            projectName: "Smart Cart",
+            image: "images/smart_cart.png",
+            summary:
+                "Developed and prototyped an AMR compatible Smart Cart to automate job transitions on the manufacturing floor.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            techStack: ["SolidWorks", "Raspberry Pi", "UART", "3D Printing", "Welding"],
+        },
     ],
-    simulationProjects: [ // simulation
+    simulationProjects: [ // simulation and software
         {
             projectName: "Finite Element Model of Tissue Deformation for Robotic Surgery Training",
             image: "images/plane displacement.png",
@@ -109,23 +141,31 @@ export const projects = {
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
             techStack: ["MATLAB", "Kalman filter", "LQR"],
         },
+        {
+            projectName: "Object Detection in Traffic using TensorFlow",
+            image: "images/tensorflow.png",
+            summary:
+                "Trained a model to detect people, cars, and buses in traffic leading to an average 80% confidence level.",
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            techStack: ["TensorFlow", "Python", "Jupyter Notebook", "OpenCV"],
+        },
     ],
     hapticsProjects: [ // haptics
     {
-        projectName: "Finite Element Model of Tissue Deformation for Robotic Surgery Training",
-        image: "images/plane displacement.png",
+        projectName: "Path Finder: Haptic Feedback Vest for the Visually Impaired",
+        image: "images/pathfinder.png",
         summary:
-            "Performed structural analysis in COMSOL to emulate the behavior of a surgical probe with tissue.",
-        preview: "https://drive.google.com/file/d/1j7RRzrjk2dHGpqjIXVMlCyht4XTKhH_W/view?usp=sharing",
-        techStack: ["COMSOL", "FEM"],
+            "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
+        preview: "https://docs.google.com/presentation/d/1ahmOeAyiJUFVkCDCQDMypHZjgy4WtvFkutT9CtxcB3k/edit",
+        techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
     },
     {
-        projectName: "LQG Controller Design for an Aircraft Model",
-        image: "images/LQG.png",
+        projectName: "Signal Synthesis for High Frequency Tactile Feedback",
+        image: "images/lpc.png",
         summary:
-            "Designed an LQG controller achieving 0 mean error and minimal variance during steady-state.",
+            "Programmed a voice-coil motor using PCA and LPC to create a synthetic signal to relay surface contact haptic feedback.",
         preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
-        techStack: ["MATLAB", "Kalman filter", "LQR"],
+        techStack: ["Python", "C", "LPC", "PCA"],
     },
 ],
 };
