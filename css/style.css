@@ -988,10 +988,10 @@ body.offcanvas .colorlib-nav-toggle {
 	font-weight: 500;
 }
 .services.color-2 {
-	border-bottom: 2px solid #ec5453;
+	border-bottom: 2px solid #2c98f0;
 }
 .services.color-2 .icon2 i {
-	color: #ec5453;
+	color:  #2c98f0;
 }
 .services.color-3 {
 	border-bottom: 2px solid #f9bf3f;
@@ -1079,13 +1079,13 @@ body.offcanvas .colorlib-nav-toggle {
 	text-transform: uppercase;
 }
 .services.color-2 .icon {
-	background: #ec5453;
+	background:  #2c98f0;
 }
 .services.color-2 .icon:before {
-	border-color: transparent transparent #ec5453 transparent;
+	border-color: transparent transparent  #2c98f0 transparent;
 }
 .services.color-2 .icon:after {
-	border-color: #ec5453 transparent transparent transparent;
+	border-color:  #2c98f0 transparent transparent transparent;
 }
 .services.color-3 .icon {
 	background: #f9bf3f;
@@ -1558,7 +1558,7 @@ body.offcanvas .colorlib-nav-toggle {
 	border-radius: 50%;
 }
 .colorlib-counters .counter-wrap {
-	border: 1px solid red !important;
+	border: 1px solid  #2c98f0 !important;
 }
 .colorlib-counters .colorlib-counter {
 	font-size: 40px;
@@ -2174,7 +2174,7 @@ span {
 }
 
 :root {
-	--footer-bg: #f9bf3f;
+	--footer-bg: lightgrey;
 	--color: #000;
 	--color-smooth: #000;
 	--input-border: #3a456a;
