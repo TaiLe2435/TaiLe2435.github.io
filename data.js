@@ -46,7 +46,7 @@ export const projects = {
             image: "images/AlgoBD.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
+            preview: "https://docs.google.com/presentation/d/1xUcaE54jnC_n6NBQqmgKEV9xS1Xsw8YP/edit?usp=sharing&ouid=111880718566909902999&rtpof=true&sd=true",
             techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
         },
         {
@@ -54,7 +54,7 @@ export const projects = {
             image: "images/pong.png",
             summary:
                 "Created and deployed a vision-based control algorithm onto a miniature spherical robot with a custom PCB for swarm robotics.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            preview: "https://drive.google.com/drive/folders/16zeqp9O6L_EcyQX-pn5n1J_K5Taeyz2B?usp=sharing",
             techStack: ["Python", "C", "PlatformIO", "SolidWorks", "KiCad", "3D Printing", "OpenCV"],
         },
         {
@@ -62,7 +62,7 @@ export const projects = {
             image: "images/pongv1.png",
             summary:
                 "Performed sensor fusion and signal processing on IMU sensor data providing accurate pose estimation for a spherical robot.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find better link for it, or create a page for it
+            preview: "https://github.com/TaiLe2435/spherical_robot", // find better link for it, or create a page for it
             techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
         },
         {
@@ -70,7 +70,7 @@ export const projects = {
             image: "images/haptics.png",
             summary:
                 "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
             techStack: ["ROS", "Haptics", "Telerobotics", "Human-Robot Interaction"],
         },
         {
