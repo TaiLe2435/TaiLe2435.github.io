@@ -1759,25 +1759,25 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-danger {
-	background: #d9534f;
+	background: #2c98f0;
 	color: #fff;
-	border: 2px solid #d9534f;
+	border: 2px solid #2c98f0;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active {
-	background: #d43f3a !important;
-	border-color: #d43f3a !important;
+	background: #2c98f0 !important;
+	border-color: #2c98f0 !important;
 }
 .btn-danger.btn-outline {
 	background: transparent;
-	color: #d9534f;
-	border: 2px solid #d9534f;
+	color: #2c98f0;
+	border: 2px solid #2c98f0;
 }
 .btn-danger.btn-outline:hover,
 .btn-danger.btn-outline:focus,
 .btn-danger.btn-outline:active {
-	background: #d9534f;
+	background: #2c98f0;
 	color: #fff;
 }
 
