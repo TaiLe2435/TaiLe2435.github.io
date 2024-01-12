@@ -71,7 +71,7 @@ export const projects = {
             summary:
                 "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
             preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
-            techStack: ["Python", "C++", "ROS", "Haptics", "Teleoperation", "Human-Robot Interaction"],
+            techStack: ["ROS", "Haptics", "Telerobotics", "Human-Robot Interaction"],
         },
         {
             projectName: "Computer Vision Based Autonomous Mobile Robot",
