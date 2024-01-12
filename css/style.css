@@ -319,7 +319,7 @@ figure figcaption {
 	padding: 4px;
 }
 #colorlib-aside .colorlib-footer h3 a {
-	color: #ff722c;
+	color: #2c98f0;
 	font-size: 18px;
 }
 #rcorners2 {
@@ -1181,13 +1181,13 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #2c98f0;
 }
 .progress-bar.color-2 {
-	background: #ec5453;
+	background: #2c98f0;
 }
 .progress-bar.color-2:after {
-	background: #ec5453;
+	background: #2c98f0;
 }
 .progress-bar.color-2 span {
-	color: #ec5453;
+	color: #2c98f0;
 	padding-top: 2px;
 }
 
@@ -1228,13 +1228,13 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #4054b2;
 }
 .progress-bar.color-7 {
-	background: #ec5453;
+	background: #2c98f0;
 }
 .progress-bar.color-7:after {
-	background: #ec5453;
+	background: #2c98f0;
 }
 .progress-bar.color-7 span {
-	color: #ec5453;
+	color: #2c98f0;
 }
 .progress-bar.color-8 {
 	background: #f9bf3f;
