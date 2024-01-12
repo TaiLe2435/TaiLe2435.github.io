@@ -2047,11 +2047,11 @@ ul {
 }
 
 .accordion li.open .link {
-	color: lightsteelblue;
+	color: darkgrey;
 }
 
 .accordion li.open i {
-	color: lightsteelblue;
+	color: darkgrey;
 }
 
 .accordion li.open i.fa-chevron-down {
@@ -2067,7 +2067,7 @@ ul {
 
 .submenu {
 	display: none;
-	background: #f9bf3f;
+	background: lightgrey;
 	font-size: 14px;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -2082,7 +2082,7 @@ ul {
 }
 
 .submenu li:hover {
-	background: rgba(255, 255, 0, 0.705);
+	background: darkgrey;
 	box-shadow: -1px 1px 51px -20px rgba(0,0,0,1);
 	border-radius: 5px;
 	color: #fff;
