@@ -604,7 +604,7 @@ body.offcanvas .colorlib-nav-toggle {
 	padding-right: 2em;
 }
 #colorlib-footer2 .h2 {
-	color: red;
+	color:  #2c98f0;
 	text-align: center;
 }
 
@@ -869,7 +869,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-2 {
-	background: brown;
+	background:  #2c98f0;
 	color: white;
 }
 .timeline-centered
