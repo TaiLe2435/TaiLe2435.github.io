@@ -2047,11 +2047,11 @@ ul {
 }
 
 .accordion li.open .link {
-	color: #b63b4d;
+	color: lightsteelblue;
 }
 
 .accordion li.open i {
-	color: #b63b4d;
+	color: lightsteelblue;
 }
 
 .accordion li.open i.fa-chevron-down {
