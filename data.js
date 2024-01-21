@@ -237,7 +237,7 @@ export const education = [
             "Focus in Robotics, Dynamics, and Controls",
             "Summa Cum Laude, 4.00 GPA"],
         tags: [
-            "Advanced Computing in Mechanical Engineering",
+            "Advanced Computing",
             "Control Systems II",
             "Finite Element Methods",
             "Robot Dynamics and Control",

@@ -206,6 +206,7 @@ import { URLs } from './user-data/urls.js';
       }
   
       projectdesign.append(li.cloneNode(true));
+      projectdesign.appendChild(h4);
   
       if (i != items.length - 1) {
         projectdesign.append(hr.cloneNode(true));
