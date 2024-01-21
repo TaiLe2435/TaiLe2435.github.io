@@ -145,9 +145,6 @@ import { URLs } from './user-data/urls.js';
   function populateProjects(items, id) {
     let projectdesign = document.getElementById(id);
   
-    let h4 = document.createElement("h4");
-    h4.className = "project-heading";
-  
     let a = document.createElement("a");
     a.target = "_blank";
   
@@ -190,7 +187,10 @@ import { URLs } from './user-data/urls.js';
     let hr = document.createElement("hr");
   
     for (let i = 0; i < items.length; i++) {
+      let h4 = document.createElement("h4");
+      h4.className = "project-heading";
       h4.innerHTML = items[i].projectName;
+
       a.href = items[i].preview;
   
       img.src = items[i].image;
@@ -206,7 +206,7 @@ import { URLs } from './user-data/urls.js';
       }
   
       projectdesign.append(li.cloneNode(true));
-      projectdesign.appendChild(h4);
+      projectdesign.appendChild(h4)
   
       if (i != items.length - 1) {
         projectdesign.append(hr.cloneNode(true));
