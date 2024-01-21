@@ -277,7 +277,7 @@ export const footer = [
         label: "Resources",
         data: [
             {
-                text: "Dark Mode",
+                text: "Toggle Dark Mode",
                 func: "enableDarkMode()",
             },
             {
