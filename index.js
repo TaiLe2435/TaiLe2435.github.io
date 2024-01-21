@@ -449,7 +449,6 @@ import { URLs } from './user-data/urls.js';
   }
   
   populateBio(bio, "bio");
-  populateBio(temp, "temp");
   
   // populateSkills(skills, "skills");
   
