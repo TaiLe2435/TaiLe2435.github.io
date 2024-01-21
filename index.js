@@ -468,7 +468,6 @@ import { URLs } from './user-data/urls.js';
   // populateLinks(footer, "footer");
 
   const currentPage = window.location.pathname.split('/').pop();
-  console.log(currentPage);
 
   if (currentPage === "temp.html" || currentPage === "index.html") {
     populateBio(bio, "bio");
@@ -514,5 +513,6 @@ import { URLs } from './user-data/urls.js';
  }
  
  console.log(footer);
+ console.log(currentPage);
 
   populateLinks(footer, "footer");
