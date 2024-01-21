@@ -82,7 +82,7 @@ export const projects = {
             image: "images/cv_amr.png",
             summary:
                 "Programmed an iCreate Robot with a Raspberry Pi and webcam to find pathways, avoid obstacles, and search for obstacles using depth estimation and lane centering and following algorithms.",
-            preview: "temp.html", // find final paper/presenation, or create a page for it
+            preview: "pages/temp.html", // find final paper/presenation, or create a page for it
             techStack: ["Python", "Raspberry Pi", "Linux", "OpenCV"],
         },
         {
