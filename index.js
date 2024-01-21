@@ -196,6 +196,7 @@ import { URLs } from './user-data/urls.js';
       h4.innerHTML = items[i].projectName;
 
       a.href = items[i].preview;
+      a.target = "_self";
   
       img.src = items[i].image;
   
