@@ -475,18 +475,21 @@ import { URLs } from './user-data/urls.js';
  //    populateSkills(skills, "skills");
  // }
  
- if (medium !== null) {
-    fetchBlogsFromMedium(medium);
- }
+//  if (medium !== null) {
+//     fetchBlogsFromMedium(medium);
+//  }
  
- if (gitConnected !== null) {
-    fetchGitConnectedData(gitConnected);
- }
+
+//  if (gitConnected !== null) {
+//     fetchGitConnectedData(gitConnected);
+//  }
  
+ console.log(roboticsProjects);
+
  if (roboticsProjects !== null) {
     populateProjects(roboticsProjects, "robotics-projects");
  }
- 
+
  if (automationProjects !== null) {
     populateProjects(automationProjects, "automation-projects");
  }
@@ -507,6 +510,8 @@ import { URLs } from './user-data/urls.js';
     populateExp_Edu(education, "education");
  }
  
+ console.log(footer);
+
  if (footer !== null) {
     populateLinks(footer, "footer");
  }
