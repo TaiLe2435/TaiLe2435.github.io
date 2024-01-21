@@ -74,7 +74,7 @@ export const projects = {
             image: "images/haptics.png",
             summary:
                 "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5",
+            preview: "https://drive.google.com/file/d/1joa0GVCVt6uRhBgIJZEvapevD9wnvsFf/view?usp=sharing",
             techStack: ["ROS", "Haptics", "Telerobotics", "Human-Robot Interaction"],
         },
         {
@@ -82,7 +82,7 @@ export const projects = {
             image: "images/cv_amr.png",
             summary:
                 "Programmed an iCreate Robot with a Raspberry Pi and webcam to find pathways, avoid obstacles, and search for obstacles using depth estimation and lane centering and following algorithms.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            preview: "pages/temp.html", // find final paper/presenation, or create a page for it
             techStack: ["Python", "Raspberry Pi", "Linux", "OpenCV"],
         },
         {
@@ -231,7 +231,7 @@ export const experience = [
 export const education = [
     {
         title: "M.S. in Mechanical Engineering",
-        duration: "Jan 2022 - May 2024",
+        duration: "January 2022 - May 2024",
         subtitle: "Northern Illinois University",
         details: ["Thesis: Magnetometer-less Estimation of a Mobile Robot using Cascaded Kalman Filters",
             "Focus in Robotics, Dynamics, and Controls",
@@ -282,7 +282,7 @@ export const footer = [
             },
             {
                 text: "Resume",
-                link: "https://drive.google.com/file/d/1s1YKa4OGqJSBwDMW4SxOdVAGMJN9Hroj/view?usp=sharing"
+                link: "https://drive.google.com/file/d/1K599JIwuKtzGSx8V571oq0fc1B5BLylb/view?usp=sharing"
             },
         ],
     },
