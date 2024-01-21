@@ -296,3 +296,7 @@ export const footer = [
         ],
     },
 ];
+
+export const temp = [
+    `Under construction!`,
+];
