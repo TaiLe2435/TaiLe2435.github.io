@@ -450,20 +450,63 @@ import { URLs } from './user-data/urls.js';
     return item;
   }
   
-  populateBio(bio, "bio");
+  // populateBio(bio, "bio");
   
-  // populateSkills(skills, "skills");
+  // // populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
+  // fetchBlogsFromMedium(medium);
+  // fetchGitConnectedData(gitConnected);
   
-  populateProjects(roboticsProjects, "robotics-projects");
-  populateProjects(automationProjects, "automation-projects");
-  populateProjects(simulationProjects, "simulation-projects");
-  populateProjects(hapticsProjects, "haptics-projects");
+  // populateProjects(roboticsProjects, "robotics-projects");
+  // populateProjects(automationProjects, "automation-projects");
+  // populateProjects(simulationProjects, "simulation-projects");
+  // populateProjects(hapticsProjects, "haptics-projects");
 
-  populateExp_Edu(experience, "experience");
-  populateExp_Edu(education, "education");
+  // populateExp_Edu(experience, "experience");
+  // populateExp_Edu(education, "education");
   
-  populateLinks(footer, "footer");
-  
+  // populateLinks(footer, "footer");
+
+  if (bio !== null) {
+    populateBio(bio, "bio");
+ }
+ 
+ // if (skills !== null) {
+ //    populateSkills(skills, "skills");
+ // }
+ 
+ if (medium !== null) {
+    fetchBlogsFromMedium(medium);
+ }
+ 
+ if (gitConnected !== null) {
+    fetchGitConnectedData(gitConnected);
+ }
+ 
+ if (roboticsProjects !== null) {
+    populateProjects(roboticsProjects, "robotics-projects");
+ }
+ 
+ if (automationProjects !== null) {
+    populateProjects(automationProjects, "automation-projects");
+ }
+ 
+ if (simulationProjects !== null) {
+    populateProjects(simulationProjects, "simulation-projects");
+ }
+ 
+ if (hapticsProjects !== null) {
+    populateProjects(hapticsProjects, "haptics-projects");
+ }
+ 
+ if (experience !== null) {
+    populateExp_Edu(experience, "experience");
+ }
+ 
+ if (education !== null) {
+    populateExp_Edu(education, "education");
+ }
+ 
+ if (footer !== null) {
+    populateLinks(footer, "footer");
+ }
