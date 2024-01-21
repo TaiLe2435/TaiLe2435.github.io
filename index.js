@@ -492,31 +492,31 @@ import { URLs } from './user-data/urls.js';
  
 //  console.log(roboticsProjects);
 
- if (currentPage !== "/pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(roboticsProjects, "robotics-projects");
  }
 
- if (currentPage !== "/pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(automationProjects, "automation-projects");
  }
  
- if (currentPage !== "/pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(simulationProjects, "simulation-projects");
  }
  
- if (currentPage !== "pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(hapticsProjects, "haptics-projects");
  }
  
- if (currentPage !== "pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateExp_Edu(experience, "experience");
  }
  
- if (currentPage !== "pages/temp.html") {
+ if (currentPage !== "temp.html") {
     populateExp_Edu(education, "education");
  }
  
- if (currentPage === "pages/temp.html"){
+ if (currentPage === "temp.html"){
     populateBio(temp, "temp");
  }
 
