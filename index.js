@@ -5,6 +5,7 @@ import {
     education,
     experience,
     footer,
+    temp,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
