@@ -470,6 +470,7 @@ import { URLs } from './user-data/urls.js';
 
   const currentPage = window.location.pathname.split('/').pop();
 
+  console.log(currentPage);
 
   if (currentPage !== "temp.html"){
     populateBio(bio, "bio");
