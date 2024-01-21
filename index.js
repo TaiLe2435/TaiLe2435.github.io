@@ -469,9 +469,8 @@ import { URLs } from './user-data/urls.js';
 
   const currentPage = window.location.pathname.split('/').pop();
 
-  if (currentPage === "temp.html" || currentPage === "index.html") {
-    populateBio(bio, "bio");
- }
+
+  populateBio(bio, "bio");
  
  // if (skills !== null) {
  //    populateSkills(skills, "skills");
@@ -488,27 +487,27 @@ import { URLs } from './user-data/urls.js';
  
 //  console.log(roboticsProjects);
 
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(roboticsProjects, "robotics-projects");
  }
 
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(automationProjects, "automation-projects");
  }
  
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(simulationProjects, "simulation-projects");
  }
  
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateProjects(hapticsProjects, "haptics-projects");
  }
  
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateExp_Edu(experience, "experience");
  }
  
- if (currentPage === "index.html") {
+ if (currentPage !== "temp.html") {
     populateExp_Edu(education, "education");
  }
  
