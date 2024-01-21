@@ -66,7 +66,7 @@ export const projects = {
             image: "images/pongv1.png",
             summary:
                 "Performed sensor fusion and signal processing on IMU sensor data providing accurate pose estimation for a spherical robot.",
-            preview: "https://github.com/TaiLe2435/spherical_robot", // find better link for it, or create a page for it
+            preview: "pages/temp.html", // find better link for it, or create a page for it
             techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
         },
         {
@@ -74,7 +74,7 @@ export const projects = {
             image: "images/haptics.png",
             summary:
                 "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
-            preview: "https://drive.google.com/file/d/1joa0GVCVt6uRhBgIJZEvapevD9wnvsFf/view?usp=sharing",
+            preview: "pages/temp.html",
             techStack: ["ROS", "Haptics", "Telerobotics", "Human-Robot Interaction"],
         },
         {
@@ -90,7 +90,7 @@ export const projects = {
             image: "images/mob_manip.png",
             summary:
                 "Designed a mobile manipulator that is controlled using a web-based GUI as a controller.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            preview: "pages/temp.html", // find final paper/presenation, or create a page for it
             techStack: ["C", "Kinematics", "GUI"],
         },
         {
@@ -98,7 +98,7 @@ export const projects = {
             image: "images/agv.png",
             summary:
                 "Programmed a Parallax ActivityBot for object detection, line following, and remote operation tasks earning first place for all events.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper/presenation, or create a page for it
+            preview: "pages/temp.html", // find final paper/presenation, or create a page for it
             techStack: ["C", "Sensing", "Actuation"],
         },
     ],
@@ -108,7 +108,7 @@ export const projects = {
             image: "images/ATTS.png",
             summary:
                 "Invented a cobot compatible automated quality assurance system based on an AutomationDirect PLC to be placed in a robotic workcell to check tolerances of bearings.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            preview: "pages/temp.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "Sensing", "Actuation"],
         },
         {
@@ -116,7 +116,7 @@ export const projects = {
             image: "images/cobot.png",
             summary:
                 "Programmed, maintained, and improved 4 cobot stations increasing productivity and efficiency.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            preview: "pages/temp.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation", "Cobot Programming", "SolidWorks"],
         },
         {
@@ -124,7 +124,7 @@ export const projects = {
             image: "images/trimming.png",
             summary:
                 "Created a PLC and CMI program to allow workers to input variables and have a trimming system cut excess Teflon and adhesives from the sides.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            preview: "pages/temp.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation"],
         },
         {
@@ -132,7 +132,7 @@ export const projects = {
             image: "images/hook.png",
             summary:
                 "Designed, cut out, welded, and automated a hook and tray system for an automated lift.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            preview: "pages/temp.html", // link video or presentation
             techStack: ["SolidWorks", "PLC", "UART", "Sensing", "Actuation"],
         },
         {
@@ -140,7 +140,7 @@ export const projects = {
             image: "images/smart_cart.png",
             summary:
                 "Developed and prototyped an AMR compatible Smart Cart to automate job transitions on the manufacturing floor.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // link video or presentation
+            preview: "pages/temp.html", // link video or presentation
             techStack: ["SolidWorks", "Raspberry Pi", "UART", "3D Printing", "Welding"],
         },
     ],
@@ -158,7 +158,7 @@ export const projects = {
             image: "images/LQG.png",
             summary:
                 "Designed an LQG controller achieving 0 mean error and minimal variance during steady-state.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            preview: "pages/temp.html", // find final paper and link it 
             techStack: ["MATLAB", "Kalman filter", "LQR"],
         },
         {
@@ -166,7 +166,7 @@ export const projects = {
             image: "images/tensorflow.png",
             summary:
                 "Trained a model to detect people, cars, and buses in traffic leading to an average 80% confidence level.",
-            preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+            preview: "pages/temp.html", // find final paper and link it 
             techStack: ["TensorFlow", "Python", "Jupyter Notebook", "OpenCV"],
         },
     ],
@@ -176,7 +176,7 @@ export const projects = {
         image: "images/pathfinder.png",
         summary:
             "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
-        preview: "https://docs.google.com/presentation/d/1ahmOeAyiJUFVkCDCQDMypHZjgy4WtvFkutT9CtxcB3k/edit",
+        preview: "pages/temp.html",
         techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
     },
     {
@@ -184,7 +184,7 @@ export const projects = {
         image: "images/lpc.png",
         summary:
             "Programmed a voice-coil motor using PCA and LPC to create a synthetic signal to relay surface contact haptic feedback.",
-        preview: "https://docs.google.com/presentation/d/1UDVEWxkxhiRNwt45MYRseIzE51zXY_gt-yFqHcVHW10/edit?pli=1#slide=id.g2ad29a2464c_0_5", // find final paper and link it 
+        preview: "pages/temp.html", // find final paper and link it 
         techStack: ["Python", "C", "LPC", "PCA"],
     },
 ],
