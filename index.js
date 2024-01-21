@@ -467,7 +467,10 @@ import { URLs } from './user-data/urls.js';
   
   // populateLinks(footer, "footer");
 
-  if (bio !== null) {
+  const currentPage = window.location.pathname.split('/').pop();
+  console.log(currentPage);
+
+  if (currentPage === "temp.html" || currentPage === "index.html") {
     populateBio(bio, "bio");
  }
  
@@ -484,34 +487,32 @@ import { URLs } from './user-data/urls.js';
 //     fetchGitConnectedData(gitConnected);
 //  }
  
- console.log(roboticsProjects);
+//  console.log(roboticsProjects);
 
- if (roboticsProjects !== null) {
+ if (currentPage === "index.html") {
     populateProjects(roboticsProjects, "robotics-projects");
  }
 
- if (automationProjects !== null) {
+ if (currentPage === "index.html") {
     populateProjects(automationProjects, "automation-projects");
  }
  
- if (simulationProjects !== null) {
+ if (currentPage === "index.html") {
     populateProjects(simulationProjects, "simulation-projects");
  }
  
- if (hapticsProjects !== null) {
+ if (currentPage === "index.html") {
     populateProjects(hapticsProjects, "haptics-projects");
  }
  
- if (experience !== null) {
+ if (currentPage === "index.html") {
     populateExp_Edu(experience, "experience");
  }
  
- if (education !== null) {
+ if (currentPage === "index.html") {
     populateExp_Edu(education, "education");
  }
  
  console.log(footer);
 
- if (footer !== null) {
-    populateLinks(footer, "footer");
- }
+  populateLinks(footer, "footer");
