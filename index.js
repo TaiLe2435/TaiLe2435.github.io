@@ -177,8 +177,12 @@ import { URLs } from './user-data/urls.js';
     divResumeItem.append(divResumeContentRight);
     a.append(divResumeItem);
   
+    let h4 = document.createElement("h4");
+    h4.className = "project-heading";
+
     let divProjectCard = document.createElement("div");
     divProjectCard.className = "project-card";
+    divProjectCard.append(h4);
     divProjectCard.append(a);
   
     let li = document.createElement("li");
@@ -187,8 +191,8 @@ import { URLs } from './user-data/urls.js';
     let hr = document.createElement("hr");
   
     for (let i = 0; i < items.length; i++) {
-      let h4 = document.createElement("h4");
-      h4.className = "project-heading";
+      // let h4 = document.createElement("h4");
+      // h4.className = "project-heading";
       h4.innerHTML = items[i].projectName;
 
       a.href = items[i].preview;
@@ -206,7 +210,7 @@ import { URLs } from './user-data/urls.js';
       }
   
       projectdesign.append(li.cloneNode(true));
-      projectdesign.appendChild(h4)
+      // projectdesign.appendChild(h4)
   
       if (i != items.length - 1) {
         projectdesign.append(hr.cloneNode(true));
