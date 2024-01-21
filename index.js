@@ -470,7 +470,10 @@ import { URLs } from './user-data/urls.js';
   const currentPage = window.location.pathname.split('/').pop();
 
 
-  populateBio(bio, "bio");
+  if (currentPage !== "temp.html"){
+    populateBio(bio, "bio");
+  }
+
  
  // if (skills !== null) {
  //    populateSkills(skills, "skills");
@@ -511,7 +514,8 @@ import { URLs } from './user-data/urls.js';
     populateExp_Edu(education, "education");
  }
  
- console.log(footer);
- console.log(currentPage);
+ if (currentPage === "temp.html"){
+    populateBio(temp, "temp");
+ }
 
   populateLinks(footer, "footer");
