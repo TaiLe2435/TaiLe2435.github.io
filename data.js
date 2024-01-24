@@ -123,7 +123,7 @@ export const projects = {
             projectName: "Automated Trimming Station",
             image: "images/trimming.png",
             summary:
-                "Created a PLC and CMI program to allow workers to input variables and have a trimming system cut excess Teflon and adhesives from the sides.",
+                "Created a PLC and HMI program to allow workers to input variables and have a trimming system cut excess Teflon and adhesives from the sides.",
             preview: "pages/temp.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation"],
         },
@@ -192,7 +192,7 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Northern Illinois Univeresity | ARM and Omron Lab",
+        title: "Northern Illinois University | ARM and Omron Lab",
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
         details: [`Worked on control and estimation problems for navigation and manipulation of autonomous robotic systems`,
