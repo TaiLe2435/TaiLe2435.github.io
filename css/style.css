@@ -19,6 +19,11 @@
 	color: white;
   }
 
+.dark-mode-text {
+	/* background-color: white; */
+	color: white;
+}
+
 /* =======================================================
 *
 * 	Template Style 
@@ -43,7 +48,7 @@ body {
 }
 
 a {
-	color: #2c98f0;
+	color: black; /*#2c98f0*/
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;

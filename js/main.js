@@ -291,9 +291,26 @@ Accordion.prototype.dropdown = function (e) {
 
 var accordion = new Accordion($("#accordion"), false);
 
+// function enableDarkMode() {
+//   document.body.classList.toggle("dark-mode");
+//   // document.ul.classList.toggle("dark-mode");
+// }
+
 function enableDarkMode() {
+  // Toggle dark-mode class on body
   document.body.classList.toggle("dark-mode");
+
+  // // Toggle dark-mode class on other elements
+  // var elementsToToggle = document.querySelectorAll('.dark-mode-toggle');
+  // elementsToToggle.forEach(function(element) {
+  //   element.classList.toggle("dark-mode-text");
+  // });
+
+  // // Toggle color for the specific link in the navigation
+  // var resumeLink = document.querySelector('#colorlib-main-menu a[href="resume/TommyLe_Resume.pdf"]');
+  // resumeLink.classList.toggle("dark-mode-text");
 }
+
 
 function detectDayNightMode() {
   const hours = new Date().getHours();

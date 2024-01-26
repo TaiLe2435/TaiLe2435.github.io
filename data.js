@@ -300,3 +300,7 @@ export const footer = [
 export const temp = [
     `Under Construction. Project details coming shortly.`,
 ];
+
+export const thesis = [
+    `This work involes developing a novel estimation algorithm for a custom unicycle model mobile robot.`,
+];

@@ -6,6 +6,7 @@ import {
     experience,
     footer,
     temp,
+    thesis,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -516,8 +517,12 @@ import { URLs } from './user-data/urls.js';
     populateExp_Edu(education, "education");
  }
  
- if (currentPage === "temp.html"){
+ if (currentPage === "temp.html" || currentPage === "thesis.html"){
     populateBio(temp, "temp");
  }
+
+ if (currentPage === "thesis.html"){
+  populateBio(thesis, "thesis");
+}
 
   populateLinks(footer, "footer");
