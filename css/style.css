@@ -172,8 +172,8 @@ figure figcaption {
 	width: 50%;
 	/* margin: 0 10px;
 	width: 100%; */
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 300px;
+	max-height: 300px;
 	height: auto;
 }
 
