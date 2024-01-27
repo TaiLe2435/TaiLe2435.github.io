@@ -1,3 +1,5 @@
+//__________________ MAIN PAGE ____________________________//
+
 export const bio = [
     `I have attended Northern Illinois University since 2019 where I graduated with a Bachelor's of Science in Mechatronics Engineering and am \ 
     currently working towards my Master's in Mechanical Engineering. During my time at NIU, I have participated in the development of autonomous \
@@ -263,6 +265,8 @@ export const education = [
     },
 ];
 
+//__________________ FOOTER ____________________________//
+
 export const footer = [
     {
         label: "Dev Profiles",
@@ -297,9 +301,13 @@ export const footer = [
     },
 ];
 
+//__________________ TEMPORARY PAGE ____________________________//
+
 export const temp = [
     `Under Construction. Project details coming shortly.`,
 ];
+
+//__________________ THESIS PAGE ____________________________//
 
 export const thesisIntro = [
     `This work involes developing a novel estimation algorithm for a custom unicycle model mobile robot.`,

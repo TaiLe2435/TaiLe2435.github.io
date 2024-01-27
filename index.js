@@ -475,7 +475,7 @@ import { URLs } from './user-data/urls.js';
 
   console.log(currentPage);
 
-  if (currentPage === "index.html"){
+  if (currentPage === ""){
     populateBio(bio, "bio");
     populateProjects(roboticsProjects, "robotics-projects");
     populateProjects(automationProjects, "automation-projects");
