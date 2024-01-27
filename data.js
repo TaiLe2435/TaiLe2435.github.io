@@ -310,13 +310,46 @@ export const temp = [
 //__________________ THESIS PAGE ____________________________//
 
 export const thesisIntro = [
-    `This work involes developing a novel estimation algorithm for a custom unicycle model mobile robot.`,
+    `State-estimation and localization is one of the fundamental blocks in the \
+    development of autonomous mobile robots. To provide robust effective navigation, \
+    a robust localization algorithm is needed. Most localization applications use an \
+    IMU along with an external reference sensor to provide a global measurement and \
+    compensate for the IMUs errors. For outdoor applications this sensor is typically a GPS. \
+    However, for indoor applications, GPS signals are not accessible so implementations turn \
+    to magnetometers or UWB sensors. This thesis will focus on indoor localization and the \
+    shortcomings of using magnetometers for sensor fusion.`,
+    `Recently, our lab has been conducting research in the development and control of miniature \
+    spherical robots. One of the projects involved applications in the field of psychology for \
+    experiments with common lab animals. One of the biggest challenges in the development of the \
+    spherical robot was designing a robot that could fit all our required hardware inside while \
+    remaining underneath a certain size. While eventually we were able to fit all the sensors \
+    within the robot’s shell, the magnetometer that was used suffered in performance due to its \
+    proximity to the motors and other electronics in the system. Possible solutions include adding \
+    a different sensor into the shell of the robot, which would increase its size past the \
+    required dimensions for our collaborator. Another solution would be to add an external \
+    sensor like a vision system or UWB tags, however this would require additional setup by \
+    the collaborator which is not ideal. This led to the idea of developing our own \
+    estimation algorithm that does not require additional sensors.`,
 ];
 
 export const thesisMethods = [
-    `Built a custom robot and tested using cascaded EKFs with gradient descent.`,
+    `The algorithm contains the NMNI, NDZTA, and complementary filter preprocessing methods for \
+    improved pose information from IMU data, as well as the 1st EKF which estimates the course \
+    error of the mobile robot and the 2nd EKF which estimates the error in the states. The \
+    overall flow of the algorithm is as follows: first the sensor data has its bias removed \
+    using the bias estimates from the 2nd EKF and then is converted into pose data. The pose \
+    data then has its error corrected through the estimates in the 2nd EKF and is passed to \
+    the first EKF which uses the mobile robots kinematic model and compensated measurements \
+    to provide an optimal estimation of the mobile robot’s states.`,
+    `To test the system, a differential drive mobile robot was designed and built. The robot \
+    has a motor driver, DC motors, 9DOF IMU, rechargeable battery, and an ESP32 microcontroller. \
+    Tests will be ran in a test environment equipped with an overhead vision system used to track \
+    AruCo markers placed on the robot.`,
 ];
 
 export const thesisResults = [
-    `Results TBD.`,
+    `The image below shows results from a simulation developed in MATLAB. From the image, it is \
+    shown that the algorithm works well to provide an optimal estimation of a mobile robot without \
+    the need of a magnetometer. The remaining work is developing code in C for the mobile robot and \
+    testing the algorithm in the developed experiment environment. Results will be posted soon.`,
 ];
