@@ -475,8 +475,14 @@ import { URLs } from './user-data/urls.js';
 
   console.log(currentPage);
 
-  if (currentPage !== "temp.html"){
+  if (currentPage === "index.html"){
     populateBio(bio, "bio");
+    populateProjects(roboticsProjects, "robotics-projects");
+    populateProjects(automationProjects, "automation-projects");
+    populateProjects(simulationProjects, "simulation-projects");
+    populateProjects(hapticsProjects, "haptics-projects");
+    populateExp_Edu(experience, "experience");
+    populateExp_Edu(education, "education");
   }
 
  
@@ -495,38 +501,38 @@ import { URLs } from './user-data/urls.js';
  
 //  console.log(roboticsProjects);
 
- if (currentPage !== "temp.html") {
-    populateProjects(roboticsProjects, "robotics-projects");
- }
+//  if (currentPage !== "temp.html") {
+//     populateProjects(roboticsProjects, "robotics-projects");
+//  }
 
- if (currentPage !== "temp.html") {
-    populateProjects(automationProjects, "automation-projects");
- }
+//  if (currentPage !== "temp.html") {
+//     populateProjects(automationProjects, "automation-projects");
+//  }
  
- if (currentPage !== "temp.html") {
-    populateProjects(simulationProjects, "simulation-projects");
- }
+//  if (currentPage !== "temp.html") {
+//     populateProjects(simulationProjects, "simulation-projects");
+//  }
  
- if (currentPage !== "temp.html") {
-    populateProjects(hapticsProjects, "haptics-projects");
- }
+//  if (currentPage !== "temp.html") {
+//     populateProjects(hapticsProjects, "haptics-projects");
+//  }
  
- if (currentPage !== "temp.html") {
-    populateExp_Edu(experience, "experience");
- }
+//  if (currentPage !== "temp.html") {
+//     populateExp_Edu(experience, "experience");
+//  }
  
- if (currentPage !== "temp.html") {
-    populateExp_Edu(education, "education");
- }
+//  if (currentPage !== "temp.html") {
+//     populateExp_Edu(education, "education");
+//  }
  
  if (currentPage === "temp.html"){
     populateBio(temp, "temp");
  }
 
  if (currentPage === "thesis.html"){
-  populateBio(thesisIntro, "thesis-intro");
-  populateBio(thesisMethods, "thesis-methods");
-  populateBio(thesisResults, "thesis-results");
+    populateBio(thesisIntro, "thesis-intro");
+    populateBio(thesisMethods, "thesis-methods");
+    populateBio(thesisResults, "thesis-results");
 }
 
   populateLinks(footer, "footer");
