@@ -6,7 +6,9 @@ import {
     experience,
     footer,
     temp,
-    thesis,
+    thesisIntro,
+    thesisMethods,
+    thesisResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -522,7 +524,9 @@ import { URLs } from './user-data/urls.js';
  }
 
  if (currentPage === "thesis.html"){
-  populateBio(thesis, "thesis");
+  populateBio(thesisIntro, "thesis-intro");
+  populateBio(thesisMethods, "thesis-methods");
+  populateBio(thesisResults, "thesis-results");
 }
 
   populateLinks(footer, "footer");

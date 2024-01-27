@@ -50,7 +50,7 @@ export const projects = {
             image: "images/AlgoBD.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "https://docs.google.com/presentation/d/1xUcaE54jnC_n6NBQqmgKEV9xS1Xsw8YP/edit?usp=sharing&ouid=111880718566909902999&rtpof=true&sd=true",
+            preview: "pages/thesis.html", // https://docs.google.com/presentation/d/1xUcaE54jnC_n6NBQqmgKEV9xS1Xsw8YP/edit?usp=sharing&ouid=111880718566909902999&rtpof=true&sd=true
             techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
         },
         {
@@ -301,6 +301,14 @@ export const temp = [
     `Under Construction. Project details coming shortly.`,
 ];
 
-export const thesis = [
+export const thesisIntro = [
     `This work involes developing a novel estimation algorithm for a custom unicycle model mobile robot.`,
+];
+
+export const thesisMethods = [
+    `Built a custom robot and tested using cascaded EKFs with gradient descent.`,
+];
+
+export const thesisResults = [
+    `Results TBD.`,
 ];
