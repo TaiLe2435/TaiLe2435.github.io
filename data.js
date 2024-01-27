@@ -52,7 +52,7 @@ export const projects = {
             image: "images/AlgoBD.png",
             summary:
                 "Developing a novel estimation algorithm for a custom unicycle model mobile robot.",
-            preview: "pages/thesis.html", // https://docs.google.com/presentation/d/1xUcaE54jnC_n6NBQqmgKEV9xS1Xsw8YP/edit?usp=sharing&ouid=111880718566909902999&rtpof=true&sd=true
+            preview: "pages/thesis.html",
             techStack: ["Python", "C", "PlatformIO", "SolidWorks", "Eigen", "OpenCV", "Extended Kalman Filter"],
         },
         {
