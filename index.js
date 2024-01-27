@@ -519,7 +519,7 @@ import { URLs } from './user-data/urls.js';
     populateExp_Edu(education, "education");
  }
  
- if (currentPage === "temp.html" || currentPage === "thesis.html"){
+ if (currentPage === "temp.html"){
     populateBio(temp, "temp");
  }
 
