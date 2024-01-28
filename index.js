@@ -12,6 +12,9 @@ import {
     seniorDesignIntro,
     seniorDesignMethods,
     SeniorDesignResults,
+    argonneIntro,
+    argonneMethods,
+    argonneResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -502,6 +505,12 @@ if (currentPage === "senior_design.html"){
   populateBio(seniorDesignIntro, "senior-design-intro");
   populateBio(seniorDesignMethods, "senior-design-methods");
   populateBio(SeniorDesignResults, "senior-design-results");
+}
+
+if (currentPage === "telerobotics.html"){
+  populateBio(argonneIntro, "argonne-intro");
+  populateBio(argonneMethods, "argonne-methods");
+  populateBio(argonneResults, "argonne-results");
 }
 
 
