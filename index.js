@@ -474,9 +474,9 @@ import { URLs } from './user-data/urls.js';
   
   // populateLinks(footer, "footer");
 
-  // const currentPage = window.location.pathname.split('/').pop();
+  const currentPage = window.location.pathname.split('/').pop();
 
-  // console.log(currentPage);
+  console.log(currentPage);
 
   if (currentPage === ""){
     populateBio(bio, "bio");
