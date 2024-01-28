@@ -76,7 +76,7 @@ export const projects = {
             image: "images/haptics.png",
             summary:
                 "Conducted research on haptics, telerobotics, and human-robot interaction, developing a telerobotic system allowing users to intuitively operate a robot through a virtual environment.",
-            preview: "pages/temp.html",
+            preview: "pages/telerobotics.html",
             techStack: ["ROS", "Haptics", "Telerobotics", "Human-Robot Interaction"],
         },
         {
