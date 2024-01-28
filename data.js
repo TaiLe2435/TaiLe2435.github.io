@@ -60,7 +60,7 @@ export const projects = {
             image: "images/pong.png",
             summary:
                 "Created and deployed a vision-based control algorithm onto a miniature spherical robot with a custom PCB for swarm robotics.",
-            preview: "https://drive.google.com/drive/folders/16zeqp9O6L_EcyQX-pn5n1J_K5Taeyz2B?usp=sharing",
+            preview: "pages/senior_design.html",
             techStack: ["Python", "C", "PlatformIO", "SolidWorks", "KiCad", "3D Printing", "OpenCV"],
         },
         {
@@ -352,4 +352,42 @@ export const thesisResults = [
     shown that the algorithm works well to provide an optimal estimation of a mobile robot without \
     the need of a magnetometer. The remaining work is developing code in C for the mobile robot and \
     testing the algorithm in the developed experiment environment. Results will be posted soon.`,
+];
+
+//__________________ THESIS PAGE ____________________________//
+
+export const seniorDesignIntro = [
+    `Spherical robots have several advantages over other types of mobile robots such as low \
+    friction navigation and working in constrained spaces. This realization has caused spherical \
+    robots to gain a lot of traction in academic research.`,
+    `The team was tasked with the design, fabrication, and control of a small, spherical, \
+    omnidirectional robot for biological research with small animals. A previous version made as \
+    well as commercially available spherical robots lack closed-loop control and autonomous \
+    capabilities while maintaining the desired small size. The completion of Pong yields a small-sized \
+    spherical robot with a custom PCB, capable of closed-loop control.`,
+];
+
+export const seniorDesignMethods = [
+    `The team utilized a dual-wheel non-holonomic drive mechanism. Wheels are attached parallel to each \
+    other using a shaft and contact an outer shell to propel the system. A brass counterweight is added, \
+    and a scaffolding design is used to lower the center of mass and balance the robot. Springs are added \
+    to reduce slip in the wheels and enforces the robot to navigate smoothly. Much of the robot \
+    is 3D printed using resin.`,
+    `A PCB with a DRV8833 dual motor driver and LIS3MDL tri-axial magnetometer were created to drive the DC \
+    motors and provide complementary yaw data as well as track a target, respectively. A Seeed XIAO nRF52840 \
+    Sense microcontroller is used for implementing closed-loop control onto the system using vision and orientation data.`,
+    `With the custom PCB, the size of the robot was able to decrease to 43 mm in diameter; about 5-10 mm smaller \
+    than other robots. To keep the robot in its upward position, brass is used for its high density at the bottom and a \
+    scaffold structure is used at the top for a lower center of mass. All other housing components are connected in a
+    loose fit system for simplicity when disassembling, with the outer shell containing all components while in use.`,
+    `A Python OpenCV and an Arduino C program were developed for color detection, Bluetooth LE communication, signal \
+    processing, and feedback control. A complementary filter using our IMU as well as the overhead vision system is \
+    used to provide robust pose estimation. With the current sensors, visual and magnetic tracking of an object are possible.`,    
+];
+
+export const SeniorDesignResults = [
+    `The client’s desired design specifications were met. The team was able to decrease the size of the robot by utilizing \
+    a custom PCB, while achieving closed-loop control. By including a suspension system, the robot motion is robust. \
+    Pong can now be used for small animal behavior research. Other potential uses of the robot include research, \
+    entertainment, education, and security.`,
 ];

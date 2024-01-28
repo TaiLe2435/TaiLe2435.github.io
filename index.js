@@ -9,6 +9,9 @@ import {
     thesisIntro,
     thesisMethods,
     thesisResults,
+    seniorDesignIntro,
+    seniorDesignMethods,
+    SeniorDesignResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -471,9 +474,9 @@ import { URLs } from './user-data/urls.js';
   
   // populateLinks(footer, "footer");
 
-  const currentPage = window.location.pathname.split('/').pop();
+  // const currentPage = window.location.pathname.split('/').pop();
 
-  console.log(currentPage);
+  // console.log(currentPage);
 
   if (currentPage === ""){
     populateBio(bio, "bio");
@@ -484,46 +487,6 @@ import { URLs } from './user-data/urls.js';
     populateExp_Edu(experience, "experience");
     populateExp_Edu(education, "education");
   }
-
- 
- // if (skills !== null) {
- //    populateSkills(skills, "skills");
- // }
- 
-//  if (medium !== null) {
-//     fetchBlogsFromMedium(medium);
-//  }
- 
-
-//  if (gitConnected !== null) {
-//     fetchGitConnectedData(gitConnected);
-//  }
- 
-//  console.log(roboticsProjects);
-
-//  if (currentPage !== "temp.html") {
-//     populateProjects(roboticsProjects, "robotics-projects");
-//  }
-
-//  if (currentPage !== "temp.html") {
-//     populateProjects(automationProjects, "automation-projects");
-//  }
- 
-//  if (currentPage !== "temp.html") {
-//     populateProjects(simulationProjects, "simulation-projects");
-//  }
- 
-//  if (currentPage !== "temp.html") {
-//     populateProjects(hapticsProjects, "haptics-projects");
-//  }
- 
-//  if (currentPage !== "temp.html") {
-//     populateExp_Edu(experience, "experience");
-//  }
- 
-//  if (currentPage !== "temp.html") {
-//     populateExp_Edu(education, "education");
-//  }
  
  if (currentPage === "temp.html"){
     populateBio(temp, "temp");
@@ -534,5 +497,12 @@ import { URLs } from './user-data/urls.js';
     populateBio(thesisMethods, "thesis-methods");
     populateBio(thesisResults, "thesis-results");
 }
+
+if (currentPage === "senior_design.html"){
+  populateBio(seniorDesignIntro, "senior-design-intro");
+  populateBio(seniorDesignMethods, "senior-design-methods");
+  populateBio(SeniorDesignResults), "senior-design-results");
+}
+
 
   populateLinks(footer, "footer");
