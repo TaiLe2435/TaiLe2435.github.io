@@ -181,9 +181,9 @@ figure figcaption {
 
 .resume-content img {
 	margin: 0 10px;
-	width: 100%;
-	max-width: 150px;
-	max-height: 100px;
+	/* width: 100%; */
+	/* max-width: 150px; */
+	/* max-height: 100px; */
 	height: auto;
 }
 #colorlib-aside .author-img {
@@ -2146,7 +2146,6 @@ ul {
 .img-fluid {
 	float: left;
 	width: 300px;
-	height: 300px;
 }
 
 span {
