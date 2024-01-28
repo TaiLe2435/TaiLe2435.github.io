@@ -179,6 +179,18 @@ figure figcaption {
 	/* height: auto; */
 }
 
+.project-pages iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 50%; */
+	/* margin: 0 10px;
+	width: 100%; */
+	max-width: 300px;
+	max-height: 300px;
+	/* height: auto; */
+}
+
 .resume-content img {
 	margin: 0 10px;
 	/* width: 100%; */

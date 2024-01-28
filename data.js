@@ -362,8 +362,9 @@ export const seniorDesignIntro = [
     robots to gain a lot of traction in academic research.`,
     `The team was tasked with the design, fabrication, and control of a small, spherical, \
     omnidirectional robot for biological research with small animals. A previous version made as \
-    well as commercially available spherical robots lack closed-loop control and autonomous \
-    capabilities while maintaining the desired small size. The completion of Pong yields a small-sized \
+    well as commercially available spherical robots lack closed-loop control, autonomous \
+    capabilities, and low-level sensor interfacing while maintaining the desired small size. \
+    The completion of Pong yields a small-sized \
     spherical robot with a custom PCB, capable of closed-loop control.`,
 ];
 
@@ -388,6 +389,7 @@ export const seniorDesignMethods = [
 export const SeniorDesignResults = [
     `The client’s desired design specifications were met. The team was able to decrease the size of the robot by utilizing \
     a custom PCB, while achieving closed-loop control. By including a suspension system, the robot motion is robust. \
-    Pong can now be used for small animal behavior research. Other potential uses of the robot include research, \
-    entertainment, education, and security.`,
+    Due to time constraints, software was developed and validated on a commercially available spherical robot, the \
+    Sphero-mini, and future work includes the full integration of this code onto the newly designed robot. Soon,
+    Pong can be used for research, entertainment, education, and security.`,
 ];
