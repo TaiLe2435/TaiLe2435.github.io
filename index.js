@@ -15,6 +15,9 @@ import {
     argonneIntro,
     argonneMethods,
     argonneResults,
+    attsIntro,
+    attsMethods,
+    attsResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -513,5 +516,10 @@ if (currentPage === "telerobotics.html"){
   populateBio(argonneResults, "argonne-results");
 }
 
+if (currentPage === "atts.html"){
+  populateBio(attsIntro, "atts-intro");
+  populateBio(attsMethods, "atts-methods");
+  populateBio(attsResults, "atts-results");
+}
 
   populateLinks(footer, "footer");

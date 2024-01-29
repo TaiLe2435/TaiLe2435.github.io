@@ -442,3 +442,52 @@ export const argonneResults = [
     signal being similar. The capacitance signal from the skin sensor is used to identify when an object \
     is being touched to implement PID control to grip or push away an object.`,
 ];
+
+//__________________ ATTS PAGE ____________________________//
+
+export const attsIntro = [
+    `Haptics is any technology that can create an experience of touch by applying forces, vibrations, or motions to \
+    the user. Haptics and haptic feedback exist in many everyday devices ranging from vibrations due to \
+    notifications in your phone to game controller triggers locking up when a virtual object is jammed up. \
+    One field that would benefit from the addition of haptics would be telerobotics.`,
+    `Telerobotics is the remote operation of robots; a field that uses telerobotics is robotics for \
+    nuclear waste cleanup and decontamination and decommissioning (D&D) of life-ended nuclear \
+    facilities. With the current advancements in nuclear energy production, waste cleanup has \
+    become a bigger issue and the dangerous task of D&D has become increasingly important.`,
+    `This project developed a bilateral, force feedback, control system for D&D operation using tactile feedback. \
+    Instead of force sensors, an accelerometer and skin sensor is used to capture high frequency tactile sensations, \
+    which are fed back to a vibro-tactile operator interface which achieves effective contact manipulation as \
+    well as soft gripping.`,
+];
+
+export const attsMethods = [
+    `The skin sensor and ADXL325EB accelerometer board are attached to a RH-P12-RN
+    Robotis gripper. The accelerometer’s x, y, and z axis data and the skin sensor’s capacitance data
+    is outputted to the analog outputs of an Arduino Mega board. An analog output is connected to
+    the Quanser Linear Current Amplifier Module which outputs a signal to a voice coil motor.
+    There is an external button controlling the robotic gripper which is directly attached to the Baxter
+    robot controlled by a Phantom haptics device.`,
+    `An Arduino C program was used for data acquisition of the accelerometer and skin
+    sensor, and the control algorithm for the gripper. First, the accelerometer methodology will be
+    explained. The acceleration data is sampled in real-time on an Arduino, from there the DC bias
+    of the signal is filtered out, then these bits of information are sent to a PC through serial
+    communication. In a Python program, multithreading is used to decode those bits, transform
+    them into strings, and perform digital signal processing methods simultaneously. Specifically,
+    from the tri-axis acceleration data, principal component analysis (PCA) is performed where the
+    data is projected onto its principal axes. Using the first principal component, a linear predictive
+    coding scheme was used to design a filter to create a synthetic signal which is then outputted to
+    the motor.`, 
+    `For the gripper and skin sensor subsystem, the Arduino has two probes from its analog
+    pins to read the capacitance of the sensor and take the zero average of the signal. From there the
+    change in capacitance is continuously checked against a goal capacitance level. If the change in
+    capacitance is within a certain threshold of the goal, a PID controller is applied onto the system,
+    driving the gripper to open and close, forcing the change in capacitance to reach the goal value.`,
+];
+
+export const attsResults = [
+    `A robotic haptic control system is produced using a voice coil motor to emulate the vibrating \
+    sensations that the manipulator experiences and a skin sensor to allow soft gripping. The \
+    vibration signal is validated by the spectral characteristics of both the created and original \
+    signal being similar. The capacitance signal from the skin sensor is used to identify when an object \
+    is being touched to implement PID control to grip or push away an object.`,
+];
