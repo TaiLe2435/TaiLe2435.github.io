@@ -110,7 +110,7 @@ export const projects = {
             image: "images/ATTS.png",
             summary:
                 "Invented a cobot compatible automated quality assurance system based on an AutomationDirect PLC to be placed in a robotic workcell to check tolerances of bearings.",
-            preview: "pages/temp.html", // link video or presentation
+            preview: "pages/atts.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "Sensing", "Actuation"],
         },
         {
@@ -446,48 +446,36 @@ export const argonneResults = [
 //__________________ ATTS PAGE ____________________________//
 
 export const attsIntro = [
-    `Haptics is any technology that can create an experience of touch by applying forces, vibrations, or motions to \
-    the user. Haptics and haptic feedback exist in many everyday devices ranging from vibrations due to \
-    notifications in your phone to game controller triggers locking up when a virtual object is jammed up. \
-    One field that would benefit from the addition of haptics would be telerobotics.`,
-    `Telerobotics is the remote operation of robots; a field that uses telerobotics is robotics for \
-    nuclear waste cleanup and decontamination and decommissioning (D&D) of life-ended nuclear \
-    facilities. With the current advancements in nuclear energy production, waste cleanup has \
-    become a bigger issue and the dangerous task of D&D has become increasingly important.`,
-    `This project developed a bilateral, force feedback, control system for D&D operation using tactile feedback. \
-    Instead of force sensors, an accelerometer and skin sensor is used to capture high frequency tactile sensations, \
-    which are fed back to a vibro-tactile operator interface which achieves effective contact manipulation as \
-    well as soft gripping.`,
+    `An automation start-up company called Applied Cobotics sponsored this project. The company needed an \
+    electromechanical system that can test the cut quality of their lathe in the creation of lilnear bearings.\
+    More specifically, they wanted to have a machine that can check the inner diameter of bearings, and automate \
+    the quality control process of their robotic work cells.`,
+    `The solution was reqiured to be able to check the inner diameter of cylindrical bearings ranging from 1" to 2" \
+    inner diameters, be capable of sending a 24V digital output pulse and communicate through ethernet, allow for a \
+    3 finger gripper to pick and place the bearing, and determine if the part is over or undersize and by how much \
+    with a tolerance of +/- 0.0005".`,
+    `To address their problem, the team proposed the Automated Tolerance Testing System (ATTS). \
+    ATTS is a system that automatically measures crucial dimensions of parts for testing fabrication quality. The \
+    system consists of a Keyence optical micrometer for precision measurements, a linear rail system by PBC Linear, \
+    and 80/20 alumuninum bars for the structure.`,
 ];
 
 export const attsMethods = [
-    `The skin sensor and ADXL325EB accelerometer board are attached to a RH-P12-RN
-    Robotis gripper. The accelerometer’s x, y, and z axis data and the skin sensor’s capacitance data
-    is outputted to the analog outputs of an Arduino Mega board. An analog output is connected to
-    the Quanser Linear Current Amplifier Module which outputs a signal to a voice coil motor.
-    There is an external button controlling the robotic gripper which is directly attached to the Baxter
-    robot controlled by a Phantom haptics device.`,
-    `An Arduino C program was used for data acquisition of the accelerometer and skin
-    sensor, and the control algorithm for the gripper. First, the accelerometer methodology will be
-    explained. The acceleration data is sampled in real-time on an Arduino, from there the DC bias
-    of the signal is filtered out, then these bits of information are sent to a PC through serial
-    communication. In a Python program, multithreading is used to decode those bits, transform
-    them into strings, and perform digital signal processing methods simultaneously. Specifically,
-    from the tri-axis acceleration data, principal component analysis (PCA) is performed where the
-    data is projected onto its principal axes. Using the first principal component, a linear predictive
-    coding scheme was used to design a filter to create a synthetic signal which is then outputted to
-    the motor.`, 
-    `For the gripper and skin sensor subsystem, the Arduino has two probes from its analog
-    pins to read the capacitance of the sensor and take the zero average of the signal. From there the
-    change in capacitance is continuously checked against a goal capacitance level. If the change in
-    capacitance is within a certain threshold of the goal, a PID controller is applied onto the system,
-    driving the gripper to open and close, forcing the change in capacitance to reach the goal value.`,
+    `Along with the previously mentioned components, the ATTS features a pneumatic gripper with triangular grippers \
+    to automatically center bearings on grasping. There is a solenoid valve for cleaning the bearing with compressed air, \
+    and an electrical cabinet with various electronics for sensing and actuation.`,
+    `The electrical cabinet consists of an Automation Direct PLC, HMI panel, relays, sensors, an ethernet switch, and multiple \
+    other sensors and actuators. The PLC is used to integrate all the mechanical, electrical, and software components together \
+    into an electromechanical system. Ethernet/IP was used for communication between the PLC and optical micrometer's controller \
+    and I/O port communication was used for Boolean operations.`, 
+    `On the software side of things, Do-More Designer was used to create Ladder Logic for the entire system, as well as C-More \
+    for creating the visuals of the HMI. TM-X Navigator was used to handle the Ethernet communication between the PLC and micrometer \
+    which included image capturing, buffer flushing, measuring, and measurement sending and receiving.`,
 ];
 
 export const attsResults = [
-    `A robotic haptic control system is produced using a voice coil motor to emulate the vibrating \
-    sensations that the manipulator experiences and a skin sensor to allow soft gripping. The \
-    vibration signal is validated by the spectral characteristics of both the created and original \
-    signal being similar. The capacitance signal from the skin sensor is used to identify when an object \
-    is being touched to implement PID control to grip or push away an object.`,
+    `The team was able to successfully create an automated quality control system for Applied Cobotics manufacturing needs. The system \
+    is able to grip 1" to 2" bearings, measure them with up to a 0.0005" tolerance, and automatically accept or reject parts and notify \
+    and operator when the part is out of tolerance. The system is currently being iterated and improved on by Applied Cobotics, to become \
+    more compact and efficient and is planned to be pushed to the market soon.`,
 ];
