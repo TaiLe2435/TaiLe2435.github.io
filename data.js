@@ -178,7 +178,7 @@ export const projects = {
         image: "images/pathfinder.png",
         summary:
             "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
-        preview: "pages/temp.html",
+        preview: "pages/pathfinder.html",
         techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
     },
     {
@@ -478,4 +478,36 @@ export const attsResults = [
     is able to grip 1" to 2" bearings, measure them with up to a 0.0005" tolerance, and automatically accept or reject parts and notify \
     and operator when the part is out of tolerance. The system is currently being iterated and improved on by Applied Cobotics, to become \
     more compact and efficient and is planned to be pushed to the market soon.`,
+];
+
+//__________________ PATHFIINDER PAGE ____________________________//
+
+export const pfIntro = [
+    `This project attempts to create a low-cost solution for navigation for the \
+    visually-impaired. Requirements include creating a lightweight, comfortable, hands-free, \
+    low-cost, and intuitive human-machine interaction for users.`,
+];
+
+export const pfMethods = [
+    `The design of the sensor housings are smooth and simple, allowing electronics to be enclosed \
+    and hidden. The placement of the motors was carefully placed to isolate vibrations from each motor \
+    and the design was created in a way that it does not obstruct the sensors lenses for measurement.`,
+    `For prototyping, the components were 3D printed and the electronics were assembled on a solderless \
+    breadboard. An Arduino Mega was used to provide sensing and acutation to our system. All electronics \
+    were then placed into a larger housing which is placed at the back of the vest. The housing is secured \
+    using string that was sewn on to ensure robust and comfortable attachment.`, 
+    `For user tests, the team planned 3 different experiments. The first would require a blindfolded user to \
+    differentiate the direction of an obstacle based on the motor feedback. The second would require that user \
+    to differentiate relative distance that the sensor is being trigered by. THe final test requires a user to \
+    navigate an obstacle.`,
+];
+
+export const pfResults = [
+    `In total, 3 individuals were tested. For the direction test, users were able to correctly differentiate the location of obstacles with 94% \
+    accuracy and the distance test had 100% accuracy. The obstacle course challenge was evaluated based on \
+    amount of collisions the users had. User 1 had 2 collisions, User 2 had 1, and User 3 had 3 collisions. \
+    After becoming familiar with the system, users were able to navigate the dynamic obstacle course with 0 \
+    collisions.`,
+    `From user interviews, we were able to gather valuable feedback for the vest. Some included a wider field of \
+    vision, different locations for side sensors, and different sizes for the vest to fit a wider range of body types.`,
 ];

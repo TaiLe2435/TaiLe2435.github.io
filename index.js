@@ -18,6 +18,9 @@ import {
     attsIntro,
     attsMethods,
     attsResults,
+    pfIntro,
+    pfMethods,
+    pfResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -520,6 +523,12 @@ if (currentPage === "atts.html"){
   populateBio(attsIntro, "atts-intro");
   populateBio(attsMethods, "atts-methods");
   populateBio(attsResults, "atts-results");
+}
+
+if (currentPage === "pathfinder.html"){
+  populateBio(pfIntro, "pf-intro");
+  populateBio(pfMethods, "pf-methods");
+  populateBio(pfResults, "pf-results");
 }
 
   populateLinks(footer, "footer");
