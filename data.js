@@ -515,16 +515,40 @@ export const pfResults = [
 //__________________ SPHERICAL ROBOT V1 PAGE ____________________________//
 
 export const sphrobv1Intro = [
-    ``,
+    `A spherical robot is a mobile robot that has all its mechanism and control device inside \
+    a ball-shaped case. They are widely used in various fields for different applications such as \
+    security, education, and entertainment. Several designs exist for spherical robots, but \
+    every spherical robot has a different set of mechanism and control system`,
+    `Compared with traditional wheeled and tracked mobile robots, spherical robots can provide efficient \
+    protection for the driving mechanisms, and sensory/control devices because all of the components are \
+    placed inside the shell. Secondly, because of the spherical shape of the robot, the robot exhibit an \
+    intrinsic nature of stability, i.e., no overturning problems, if it collides with obstacles, falls \
+    from a height, or meets with uneventerrain. Thirdly, the spherical robot in general has the highest \
+    mobility as it can move in any direction. For these reasons, spherical robots may perform better \
+    than traditional wheeled or tracked mobile robots in various applications where navigation is a key \
+    to completing given tasks.`,
+    ` One commercially available small-sized spherical robot is Sphero Mini, which has a diameter of 42 mm \
+    and weighs about 46 grams. It was developed for educators and parents to use as a learning \
+    aspect for kids to get familiar with STEM fields. However, since the Sphero Mini \
+    does not allow low-level control, the goal of this work is to develop a new \
+    small-sized spherical robot which is allows for low-level interfacing with the hardware drivers and control.`,
 ];
 
 export const sphrobv1Methods = [
-    ``,
-    ``, 
-    ``,
+    `On this project, I worked on the redesign of hardware housing components \
+    to ensure isolation between components and adequate room for wires and solder. I also carried out \
+    firmware development, experimentation and data collection.`,
+    `For firmware development, I developed sensor fusion algorithms using the complementary filter with to provide \
+    orientation from an IMU. For position estimation an overhead camera was used. The vision code development included
+    camera calibration, coordinate transformations, and color detection. To communication data wirelessly, drivers were \
+    created for Bluetooth classic and WiFi communication protocols. \
+    For motion I created motor drivers providing functions for high and low-level control as well as a full-state \
+    feedback controller to correct heading and position errors in the robot.`,
 ];
 
 export const sphrobv1Results = [
-    ``,
-    ``,
+    `Experimentation included testing the robot motion and control using an overhead camera set up. Results were plotted and \
+    analyzed in MATLAB. From the figure below, it is shown that the robot provides reasonable controllability. Future work includes \
+    improving the design of the robot to be within the technical specifications, and developing a more robust \
+    estimation and control algorithm. `,
 ];
