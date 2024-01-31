@@ -538,7 +538,7 @@ export const sphrobv1Methods = [
     `On this project, I worked on the redesign of hardware housing components \
     to ensure isolation between components and adequate room for wires and solder. I also carried out \
     firmware development, experimentation and data collection.`,
-    `For firmware development, I developed sensor fusion algorithms using the complementary filter with to provide \
+    `For firmware development, I developed sensor fusion algorithms using the complementary filter to provide \
     orientation from an IMU. For position estimation an overhead camera was used. The vision code development included
     camera calibration, coordinate transformations, and color detection. To communication data wirelessly, drivers were \
     created for Bluetooth classic and WiFi communication protocols. \
