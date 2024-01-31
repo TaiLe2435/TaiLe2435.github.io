@@ -68,7 +68,7 @@ export const projects = {
             image: "images/pongv1.png",
             summary:
                 "Performed sensor fusion and signal processing on IMU sensor data providing accurate pose estimation for a spherical robot.",
-            preview: "pages/temp.html", // find better link for it, or create a page for it
+            preview: "pages/sphrobv1.html",
             techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
         },
         {
@@ -510,4 +510,21 @@ export const pfResults = [
     collisions.`,
     `From user interviews, we were able to gather valuable feedback for the vest. Some included a wider field of \
     vision, different locations for side sensors, and different sizes for the vest to fit a wider range of body types.`,
+];
+
+//__________________ SPHERICAL ROBOT V1 PAGE ____________________________//
+
+export const sphrobv1Intro = [
+    ``,
+];
+
+export const sphrobv1Methods = [
+    ``,
+    ``, 
+    ``,
+];
+
+export const sphrobv1Results = [
+    ``,
+    ``,
 ];

@@ -21,6 +21,9 @@ import {
     pfIntro,
     pfMethods,
     pfResults,
+    sphrobv1Intro,
+    sphrobv1Methods,
+    sphrobv1Results,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -529,6 +532,12 @@ if (currentPage === "pathfinder.html"){
   populateBio(pfIntro, "pf-intro");
   populateBio(pfMethods, "pf-methods");
   populateBio(pfResults, "pf-results");
+}
+
+if (currentPage === "sphrobv1.html"){
+  populateBio(sphrobv1Intro, "sphrobv1-intro");
+  populateBio(sphrobv1Methods, "sphrobv1-methods");
+  populateBio(sphrobv1Results, "sphrobv1-results");
 }
 
   populateLinks(footer, "footer");
