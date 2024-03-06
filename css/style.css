@@ -383,7 +383,7 @@ figure figcaption {
 #colorlib-main {
 	flex: 1;
 	padding-left: 300px;
-	width: calc(100% - 300px);
+	/* width: calc(100% - 300px); */
 	float: right;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
