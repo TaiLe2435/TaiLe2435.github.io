@@ -139,6 +139,7 @@ figure figcaption {
 }
 
 #colorlib-aside {
+	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 1px;
 	float: left;
@@ -373,11 +374,15 @@ figure figcaption {
 }
 
 .container-wrap {
-	max-width: 1170px;
-	margin: 0 auto;
+	display: flex;
+    justify-content: flex-start; 
+	/* max-width: 1170px;
+	margin: 0 auto; */
 }
 
 #colorlib-main {
+	flex: 1;
+	padding-left: 300px;
 	width: calc(100% - 300px);
 	float: right;
 	-webkit-transition: 0.5s;
