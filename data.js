@@ -552,3 +552,47 @@ export const sphrobv1Results = [
     improving the design of the robot to be within the technical specifications, and developing a more robust \
     estimation and control algorithm. `,
 ];
+
+//__________________ THESIS PAGE ____________________________//
+
+export const cvamrIntro = [
+    `This project was the final project for the course MEE623 Robot Vision Control. \
+    The course focused on applications of computer vision in robotics and introduced \
+    us to fundamental image processing methods, machine learning, and visual servoing.`,
+    `For this project, the goal was to have an iRobot interfaced with a Raspberry Pi and \
+    webcam navigate obstacles in a hall way, find an arbitarily placed target, and \
+    place itself 50 cm in front of it. Students started with full points, then points \
+    were subtracted for running into obstacles, and for how many centimeters off the 
+    robot was from the target. Extra points were awarded for students who could have \
+    their robot start at an arbitrary position and orientation, and for the top three \
+    fastest completion times.`,
+];
+
+export const cvamrMethods = [
+    `For perception, color detection, depth estimation, and vanishing point \
+    algorithms were implemented. Color detection was used to identify obstacles, \
+    lanes, and the target, \
+    while camera calibration was carried out to be able to estimate distance from the robot 
+    to the target. A vanishing point algorithm was used to keep the robot centered \
+    within the walkway and a moving average filter was placed onto the derived \
+    center point data to smooth out the noisy vision data. Finally, a sensor fusion \
+    method was used to combine the vanishing point data with the lane detection data \
+    to provide an optimal center point for the robot to maintain.`,
+    `With the vision data, the control stack was developed. To maintain lane following \
+    PD control was implemented on the mobile robot. The feedback used here is the \
+    distance from the yellow lane on the left in Figure 1 and the vanishing point found by \
+    the algorithm. When the robot was within a certain 
+    threshold to obstacles, an interrupt would be called causing the robot to enter \
+    an avoidance routine. After the robot would pass all obstacles, it would begin \
+    searching for the target.`,
+];
+
+export const cvamrResults = [
+    `Figure 2 shows the mobile robot completing the desired task. The robot was able \
+     to complete the project with the third fastest time, and also earned the extra \
+     marks for being able to start at any arbitrary position and orientation. \
+     Due to the camera overheating after running for the duration of obstacle avoidance,\
+    the robot was programmed to take images rather than stream video for the target \
+    tracking section of the project, leading to the slow convergence shown at the end \
+    of the video.`,
+];

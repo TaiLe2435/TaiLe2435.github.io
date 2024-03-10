@@ -24,6 +24,9 @@ import {
     sphrobv1Intro,
     sphrobv1Methods,
     sphrobv1Results,
+    cvamrIntro,
+    cvamrMethods,
+    cvamrResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -538,6 +541,12 @@ if (currentPage === "sphrobv1.html"){
   populateBio(sphrobv1Intro, "sphrobv1-intro");
   populateBio(sphrobv1Methods, "sphrobv1-methods");
   populateBio(sphrobv1Results, "sphrobv1-results");
+}
+
+if (currentPage === "cvamr.html"){
+  populateBio(cvamrIntro, "cvamr-intro");
+  populateBio(cvamrMethods, "cvamr-methods");
+  populateBio(cvamrResults, "cvamr-results");
 }
 
   populateLinks(footer, "footer");
