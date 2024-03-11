@@ -633,32 +633,27 @@ export const wmmResults = [
 //__________________ MCTR210 PAGE ____________________________//
 
 export const agvIntro = [
-    `Final project of MCTR320 - Fundamentals of Mechatronics. This project-based course focused on mechatronic system design, where projects dealt with mechanical \
-    electrical, and software development for electro-mechanical systems. Projects consisted of stepper motor wiring and control with an encoder wheel, the design, \
-    manufacturing, and assembly of a monorail fit with many different sensors and actuators, and this final project of developing a mobile base.`,
-    `For this project, the goal was to develop a robot and derive and program inverse kinematics. The robot was required to be tetherless, meaning that it must carry \
-    its own energy source, have at least two wheels, and posses a vertical and horizontal axis rotating turret that is actuated by an electric motor. Achieving those \
-    specifications achieves a passing grade. Extra points were awarded for going beyond the specification and grades were distributed based on the most technically \
-    challenging robot design.`,
+    `This project was the final project for the course MCTR210 - Programming for Mechatronics. The final project concerned programming the Parallax Activity Bot shown in Figure 2 \
+    to perform tasks inside the stockaded robot arena, shown in Figure 1. The three tasks to the project included remote control, edge-tracking using a Ping sensor, and figure 8 line \ 
+    following using QTI sensors.`,
+    `General rules required that the robot must never teach the walls, and it should start anywhere in the top left box facing North with no wheels touching the lines on the board. \
+    The first task involved remote control to have the robot traverse diagonally to the bottom right corner, then bottom left corner and end facing north. Afterwards, the robot was to \
+    use closed-loop control to follow all four edges of the arena and end up back in the same position that it started. Finally, from that position the robot is to loop around the figure \
+    8 shape twice and end at the top right zone. Full marks are awarded to the group with the fastest completion time without breaking any rules, and subsequent groups were graded \
+    proportionally.`,
 ];
 
 export const agvMethods = [
-    `First, the entire robot was modeled in SolidWorks and manufactured using laser cut poster board and a 3D printer. The robot followed the differential drive configuration, and the \
-    drive wheels were continous servo motors that \
-    would speed up or slow down based on the pulses sent to the motor through their respective pins. The base motor rotating the manipulator was a stepper motor with a custom made encoder \
-    wheel fit with three QTI sensors. The manipulator itself was controlled using regular servos that were strong enough that additional gearing was not required. The microcontroller used \
-    to program the robot was the Propellor Activity Board WX.`,
-    `After design and manufacturing, deriving equations of motion and software development took place. Since the servo is a positional actuator, the inverse kinematics for our robot arm \
-    consisted of finding the angles that corresponded to a certain x and y position in its plane. After finding the angles, a linear relationship had to be found between pulses and \
-    the desired angles. Further information about the equations of motion for the manipulator can be found in the final presentation video shown in Figure 3. A similar method was used \
-    to describe the motion of the mobile base.`,
-    `The robot's motion was controlled using a web-based controller developed to connect to \
-    the microcontroller's built-in Wi-Fi module. The controller is able to move the base using a joystick, grab and drop using the gripper with two buttons, and control the 3D position of 
-    the arm using a joystick for x and y coordinates and a slider for the z-axis.`,
+    `The first task was completed using a universal remote and an IR receiver, where the receiver was connected to the robot and would receive data from the remote. The data would then be \
+    decoded and used for logic like starting or stopping tasks. The edge tracking was completed using PD control as well as depth estimation using the Ping sensor. The robot would move for a \
+    certain distance while trying to keep away from the wall while occasionally checking its front for an upcoming corner. After doing this four times, it begins the line following task. \
+    The robot achieves this by using 4 QTI sensors at the bottom of the robot that detects light. When driving over the black electrical tape there is no reflection and 0's are read from \
+    the digital pins corresponding to the sensors. With this the control algorithm was able to adjust the wheel speeds based on which sensors were detecting the line or not.`,
 ];
 
 export const agvResults = [
-    `The completion of the robot yielded full marks for the project and was deemed to be the most creative and technically difficult robot design in the course. The robot was able to move \
-    as desired, and carryout simple pick and place tasks. Although the project was successful, there were issues with latency and jittery motions of the robot arm. These problems can \
-    be solved by using a more efficient and robust method of data transfer, along with gearing down of actuators for more refined motion.`,
+    `Figure 3. shows the robot completing the tasks outlined above. The robot completed the run in 29.24 seconds and was the fastest overall time in the course, earning full marks. Future \
+    improvements to the robot could come from improved sensors. Currently, the QTI sensors used are digital sensors. With an analog sensor or a vision \ 
+    sensor we can improve the estimation of where the robot is on the line and in turn have better feedback control. A better tuned control algorithm would also improve the performance \
+    of this robot.`,
 ];
