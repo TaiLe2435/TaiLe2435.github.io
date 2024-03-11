@@ -555,7 +555,7 @@ if (currentPage === "cvamr.html"){
 if (currentPage === "wmm.html"){
   populateBio(wmmIntro, "wmm-intro");
   populateBio(wmmMethods, "wmm-methods");
-  populateBio(wmmResults, "wmmm-results");
+  populateBio(wmmResults, "wmm-results");
 }
 
   populateLinks(footer, "footer");
