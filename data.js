@@ -600,43 +600,32 @@ export const cvamrResults = [
 //__________________ THESIS PAGE ____________________________//
 
 export const wmmIntro = [
-    `This project was the final project for the course MEE623 Robot Vision Control. \
-    The course focused on applications of computer vision in robotics and introduced \
-    us to fundamental image processing methods, machine learning, and visual servoing.`,
-    `For this project, the goal was to have an iRobot interfaced with a Raspberry Pi and \
-    webcam navigate obstacles in a hall way, find an arbitarily placed target, and \
-    place itself 50 cm in front of it. Students started with full points, then points \
-    were subtracted for running into obstacles, and for how many centimeters off the 
-    robot was from the target. Extra points were awarded for students who could have \
-    their robot start at an arbitrary position and orientation, and for the top three \
-    fastest completion times.`,
+    `Final project of MCTR320 - Fundamentals of Mechatronics. This project-based course focused on mechatronic system design, where projects dealt with mechanical \
+    electrical, and software development for electro-mechanical systems. Projects consisted of stepper motor wiring and control with an encoder wheel, the design, \
+    manufacturing, and assembly of a monorail fit with many different sensors and actuators, and this final project of developing a mobile base.`,
+    `For this project, the goal was to develop a robot and derive and program inverse kinematics. The robot was required to be tetherless, meaning that it must carry \
+    its own energy source, have at least two wheels, and posses a vertical and horizontal axis rotating turret that is actuated by an electric motor. Achieving those \
+    specifications achieves a passing grade. Extra points were awarded for going beyond the specification and grades were distributed based on the most technically \
+    challenging robot design.`,
 ];
 
 export const wmmMethods = [
-    `For perception, color detection, depth estimation, and vanishing point \
-    algorithms were implemented. Color detection was used to identify obstacles, \
-    lanes, and the target, \
-    while camera calibration was carried out to be able to estimate distance from the robot 
-    to the target. A vanishing point algorithm was used to keep the robot centered \
-    within the walkway and a moving average filter was placed onto the derived \
-    center point data to smooth out the noisy vision data. Finally, a sensor fusion \
-    method was used to combine the vanishing point data with the lane detection data \
-    to provide an optimal center point for the robot to maintain.`,
-    `With the vision data, the control stack was developed. To maintain lane following \
-    PD control was implemented on the mobile robot. The feedback used here is the \
-    distance from the yellow lane on the left in Figure 1 and the vanishing point found by \
-    the algorithm. When the robot was within a certain 
-    threshold to obstacles, an interrupt would be called causing the robot to enter \
-    an avoidance routine. After the robot would pass all obstacles, it would begin \
-    searching for the target.`,
+    `First, the entire robot was modeled in SolidWorks and manufactured using laser cut poster board and a 3D printer. The robot followed the differential drive configuration, and the \
+    drive wheels were continous servo motors that \
+    would speed up or slow down based on the pulses sent to the motor through their respective pins. The base motor rotating the manipulator was a stepper motor with a custom made encoder \
+    wheel fit with three QTI sensors. The manipulator itself was controlled using regular servos that were strong enough that additional gearing was not required. The microcontroller used \
+    to program the robot was the Propellor Activity Board WX.`,
+    `After design and manufacturing, deriving equations of motion and software development took place. Since the servo is a positional actuator, the inverse kinematics for our robot arm \
+    consisted of finding the angles that corresponded to a certain x and y position in its plane. After finding the angles, a linear relationship had to be found between pulses and \
+    the desired angles. Further information about the equations of motion for the manipulator can be found in the final presentation video shown in Figure 3. A similar method was used \
+    to describe the motion of the mobile base.`,
+    `The robot's motion was controlled using a web-based controller developed to connect to \
+    the microcontroller's built-in Wi-Fi module. The controller is able to move the base using a joystick, grab and drop using the gripper with two buttons, and control the 3D position of 
+    the arm using a joystick for x and y coordinates and a slider for the z-axis.`,
 ];
 
 export const wmmResults = [
-    `Figure 2 shows the mobile robot completing the desired task. The robot was able \
-     to complete the project with the third fastest time, and also earned the extra \
-     marks for being able to start at any arbitrary position and orientation. \
-     Due to the camera overheating after running for the duration of obstacle avoidance,\
-    the robot was programmed to take images rather than stream video for the target \
-    tracking section of the project, leading to the slow convergence shown at the end \
-    of the video.`,
+    `The completion of the robot yielded full marks for the project and was deemed to be the most creative and technically difficult robot design in the course. The robot was able to move \
+    as desired, and carryout simple pick and place tasks. Although the project was successful, there were issues with latency and jittery motions of the robot arm. These problems can \
+    be solved by using a more efficient and robust method of data transfer, along with gearing down of actuators for more refined motion.`,
 ];
