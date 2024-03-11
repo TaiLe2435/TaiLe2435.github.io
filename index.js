@@ -30,6 +30,9 @@ import {
     wmmIntro,
     wmmMethods,
     wmmResults,
+    agvIntro,
+    agvMethods,
+    agvResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -556,6 +559,12 @@ if (currentPage === "wmm.html"){
   populateBio(wmmIntro, "wmm-intro");
   populateBio(wmmMethods, "wmm-methods");
   populateBio(wmmResults, "wmm-results");
+}
+
+if (currentPage === "agv.html"){
+  populateBio(agvIntro, "agv-intro");
+  populateBio(agvMethods, "agv-methods");
+  populateBio(agvResults, "agv-results");
 }
 
   populateLinks(footer, "footer");

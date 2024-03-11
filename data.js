@@ -100,7 +100,7 @@ export const projects = {
             image: "images/agv.png",
             summary:
                 "Programmed a Parallax ActivityBot for object detection, line following, and remote operation tasks earning first place for all events.",
-            preview: "pages/temp.html", // find final paper/presenation, or create a page for it
+            preview: "pages/agv.html", // find final paper/presenation, or create a page for it
             techStack: ["C", "Sensing", "Actuation"],
         },
     ],
@@ -553,7 +553,7 @@ export const sphrobv1Results = [
     estimation and control algorithm. `,
 ];
 
-//__________________ THESIS PAGE ____________________________//
+//__________________623 PROJECT PAGE ____________________________//
 
 export const cvamrIntro = [
     `This project was the final project for the course MEE623 Robot Vision Control. \
@@ -597,7 +597,7 @@ export const cvamrResults = [
     of the video.`,
 ];
 
-//__________________ THESIS PAGE ____________________________//
+//__________________ MOBILE MANIPULATOR PAGE ____________________________//
 
 export const wmmIntro = [
     `Final project of MCTR320 - Fundamentals of Mechatronics. This project-based course focused on mechatronic system design, where projects dealt with mechanical \
@@ -625,6 +625,39 @@ export const wmmMethods = [
 ];
 
 export const wmmResults = [
+    `The completion of the robot yielded full marks for the project and was deemed to be the most creative and technically difficult robot design in the course. The robot was able to move \
+    as desired, and carryout simple pick and place tasks. Although the project was successful, there were issues with latency and jittery motions of the robot arm. These problems can \
+    be solved by using a more efficient and robust method of data transfer, along with gearing down of actuators for more refined motion.`,
+];
+
+//__________________ MCTR210 PAGE ____________________________//
+
+export const agvIntro = [
+    `Final project of MCTR320 - Fundamentals of Mechatronics. This project-based course focused on mechatronic system design, where projects dealt with mechanical \
+    electrical, and software development for electro-mechanical systems. Projects consisted of stepper motor wiring and control with an encoder wheel, the design, \
+    manufacturing, and assembly of a monorail fit with many different sensors and actuators, and this final project of developing a mobile base.`,
+    `For this project, the goal was to develop a robot and derive and program inverse kinematics. The robot was required to be tetherless, meaning that it must carry \
+    its own energy source, have at least two wheels, and posses a vertical and horizontal axis rotating turret that is actuated by an electric motor. Achieving those \
+    specifications achieves a passing grade. Extra points were awarded for going beyond the specification and grades were distributed based on the most technically \
+    challenging robot design.`,
+];
+
+export const agvMethods = [
+    `First, the entire robot was modeled in SolidWorks and manufactured using laser cut poster board and a 3D printer. The robot followed the differential drive configuration, and the \
+    drive wheels were continous servo motors that \
+    would speed up or slow down based on the pulses sent to the motor through their respective pins. The base motor rotating the manipulator was a stepper motor with a custom made encoder \
+    wheel fit with three QTI sensors. The manipulator itself was controlled using regular servos that were strong enough that additional gearing was not required. The microcontroller used \
+    to program the robot was the Propellor Activity Board WX.`,
+    `After design and manufacturing, deriving equations of motion and software development took place. Since the servo is a positional actuator, the inverse kinematics for our robot arm \
+    consisted of finding the angles that corresponded to a certain x and y position in its plane. After finding the angles, a linear relationship had to be found between pulses and \
+    the desired angles. Further information about the equations of motion for the manipulator can be found in the final presentation video shown in Figure 3. A similar method was used \
+    to describe the motion of the mobile base.`,
+    `The robot's motion was controlled using a web-based controller developed to connect to \
+    the microcontroller's built-in Wi-Fi module. The controller is able to move the base using a joystick, grab and drop using the gripper with two buttons, and control the 3D position of 
+    the arm using a joystick for x and y coordinates and a slider for the z-axis.`,
+];
+
+export const agvResults = [
     `The completion of the robot yielded full marks for the project and was deemed to be the most creative and technically difficult robot design in the course. The robot was able to move \
     as desired, and carryout simple pick and place tasks. Although the project was successful, there were issues with latency and jittery motions of the robot arm. These problems can \
     be solved by using a more efficient and robust method of data transfer, along with gearing down of actuators for more refined motion.`,
