@@ -27,6 +27,9 @@ import {
     cvamrIntro,
     cvamrMethods,
     cvamrResults,
+    wmmIntro,
+    wmmMethods,
+    wmmResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -547,6 +550,12 @@ if (currentPage === "cvamr.html"){
   populateBio(cvamrIntro, "cvamr-intro");
   populateBio(cvamrMethods, "cvamr-methods");
   populateBio(cvamrResults, "cvamr-results");
+}
+
+if (currentPage === "wmm.html"){
+  populateBio(wmmIntro, "wmm-intro");
+  populateBio(wmmMethods, "wmm-methods");
+  populateBio(wmmResults, "wmmm-results");
 }
 
   populateLinks(footer, "footer");
