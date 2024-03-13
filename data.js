@@ -118,7 +118,7 @@ export const projects = {
             image: "images/cobot.png",
             summary:
                 "Programmed, maintained, and improved 4 cobot stations increasing productivity and efficiency.",
-            preview: "pages/temp.html", // link video or presentation
+            preview: "pages/cobot.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation", "Cobot Programming", "SolidWorks"],
         },
         {
@@ -656,4 +656,23 @@ export const agvResults = [
     improvements to the robot could come from improved sensors. Currently, the QTI sensors used are digital sensors. With an analog sensor or a vision \ 
     sensor we can improve the estimation of where the robot is on the line and in turn have better feedback control. A better tuned control algorithm would also improve the performance \
     of this robot.`,
+];
+
+//__________________ COBOT PAGE ____________________________//
+
+export const cobotIntro = [
+    `The task was to fully integrate robotic work cells across the manufacturing floor, using cobots or entire cobot feeder stations, which are shown in Figure 1. As an intern, I was able \
+    to plan the layout of automation equipment, select electronic and pneumatic components, design, manufacture, and assemble stands and mounts, and program the cobots and PLCs. `,
+];
+
+export const cobotMethods = [
+    `In total, I worked on developing and maintaining four robotic work cells on the floor, with two being the first implementations of the Cobot Feeder on the manufacturing floor. \
+    For these stations, pick-and-place programs for the cobot arms were created to grasp parts from a molded tray and place it into a CNC machine to be cut. To automate cycle times and \
+    improve safety, infrared and induction sensors as well as limit switches were interfaced with the automation equipment. To improve gripping accuracy and part alignment with the vice/chuck \
+    of the CNC machine, new grippers were designed to allow for self-centering of the part within the end-effectors fingers.`,
+];
+
+export const cobotResults = [
+    `From implementation of cobots and Cobot Feeders onto the factory floor, part production efficiency as well as quality of parts increased leading to an increase of $800,000 annually. \
+    For already implemented workcells, the design of new grippers and interfacing of sensors to automate cycles reduced down-time and scrap rate to below 10%.`,
 ];

@@ -33,6 +33,9 @@ import {
     agvIntro,
     agvMethods,
     agvResults,
+    cobotIntro,
+    cobotMethods,
+    cobotResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -565,6 +568,12 @@ if (currentPage === "agv.html"){
   populateBio(agvIntro, "agv-intro");
   populateBio(agvMethods, "agv-methods");
   populateBio(agvResults, "agv-results");
+}
+
+if (currentPage === "cobot.html"){
+  populateBio(cobotIntro, "cobot-intro");
+  populateBio(cobotMethods, "cobot-methods");
+  populateBio(cobotResults, "cobot-results");
 }
 
   populateLinks(footer, "footer");
