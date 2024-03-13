@@ -507,7 +507,6 @@ import { URLs } from './user-data/urls.js';
     populateProjects(roboticsProjects, "robotics-projects");
     populateProjects(automationProjects, "automation-projects");
     populateProjects(simulationProjects, "simulation-projects");
-    populateProjects(hapticsProjects, "haptics-projects");
     populateExp_Edu(experience, "experience");
     populateExp_Edu(education, "education");
   }
