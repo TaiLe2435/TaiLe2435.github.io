@@ -160,7 +160,7 @@ export const projects = {
             image: "images/LQG.png",
             summary:
                 "Designed an LQG controller achieving 0 mean error and minimal variance during steady-state.",
-            preview: "pages/temp.html", // find final paper and link it 
+            preview: "https://drive.google.com/file/d/1IXisRFXh-cRFcpPsCHbR0mK1jqDhzApK/view?usp=sharing", // find final paper and link it 
             techStack: ["MATLAB", "Kalman filter", "LQR"],
         },
         {
