@@ -72,6 +72,14 @@ export const projects = {
             techStack: ["Python", "C", "OpenCV", "Sensor Fusion", "Sensor Calibration"],
         },
         {
+            projectName: "Path Finder: Haptic Feedback Vest for the Visually Impaired",
+            image: "images/pathfinder.png",
+            summary:
+                "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
+            preview: "pages/pathfinder.html",
+            techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
+        },
+        {
             projectName: "Development of a Bilateral Haptic Telerobotic System",
             image: "images/haptics.png",
             summary:
@@ -172,24 +180,6 @@ export const projects = {
             techStack: ["TensorFlow", "Python", "Jupyter Notebook", "OpenCV"],
         },
     ],
-    hapticsProjects: [ // haptics
-    {
-        projectName: "Path Finder: Haptic Feedback Vest for the Visually Impaired",
-        image: "images/pathfinder.png",
-        summary:
-            "Designed and programmed a wearable vest to detect obstacles and provide vibro-tactile feedback to the user.",
-        preview: "pages/pathfinder.html",
-        techStack: ["SolidWorks", "Wearables", "Human-Machine Interaction", "User Testing"],
-    },
-    {
-        projectName: "Signal Synthesis for High Frequency Tactile Feedback",
-        image: "images/lpc.png",
-        summary:
-            "Programmed a voice-coil motor using PCA and LPC to create a synthetic signal to relay surface contact haptic feedback.",
-        preview: "pages/temp.html", // find final paper and link it 
-        techStack: ["Python", "C", "LPC", "PCA"],
-    },
-],
 };
 
 export const experience = [
