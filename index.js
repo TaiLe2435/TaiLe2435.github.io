@@ -36,6 +36,9 @@ import {
     cobotIntro,
     cobotMethods,
     cobotResults,
+    atsIntro,
+    atsMethods,
+    atsResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -573,6 +576,12 @@ if (currentPage === "cobot.html"){
   populateBio(cobotIntro, "cobot-intro");
   populateBio(cobotMethods, "cobot-methods");
   populateBio(cobotResults, "cobot-results");
+}
+
+if (currentPage === "ats.html"){
+  populateBio(atsIntro, "ats-intro");
+  populateBio(atsMethods, "ats-methods");
+  populateBio(atsResults, "ats-results");
 }
 
   populateLinks(footer, "footer");

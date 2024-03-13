@@ -134,7 +134,7 @@ export const projects = {
             image: "images/trimming.png",
             summary:
                 "Created a PLC and HMI program to allow workers to input variables and have a trimming system cut excess Teflon and adhesives from the sides.",
-            preview: "pages/temp.html", // link video or presentation
+            preview: "pages/ats.html", // link video or presentation
             techStack: ["PLC", "HMI", "Ethernet", "UART", "Sensing", "Actuation"],
         },
         {
@@ -665,4 +665,18 @@ export const cobotMethods = [
 export const cobotResults = [
     `From implementation of cobots and Cobot Feeders onto the factory floor, part production efficiency as well as quality of parts increased leading to an increase of $800,000 annually. \
     For already implemented workcells, the design of new grippers and interfacing of sensors to automate cycles reduced down-time and scrap rate to below 10%.`,
+];
+
+//__________________ AUTOMATED TRIMMING STATION PAGE ____________________________//
+
+export const atsIntro = [
+    `Webpage content development still in progress.`,
+];
+
+export const atsMethods = [
+    `Comback soon for the complete information.`,
+];
+
+export const atsResults = [
+    `Download my resume from the footer or side bar!`,
 ];
