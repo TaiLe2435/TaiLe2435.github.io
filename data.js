@@ -168,7 +168,7 @@ export const projects = {
             image: "images/tensorflow.png",
             summary:
                 "Trained a model to detect people, cars, and buses in traffic leading to an average 80% confidence level.",
-            preview: "pages/temp.html", // find final paper and link it 
+            preview: "https://drive.google.com/file/d/1nFMsQSKC1auZ_ZqD1DJ9EpMfSaItcIxy/view?usp=sharing", // find final paper and link it 
             techStack: ["TensorFlow", "Python", "Jupyter Notebook", "OpenCV"],
         },
     ],
