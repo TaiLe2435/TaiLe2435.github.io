@@ -670,13 +670,24 @@ export const cobotResults = [
 //__________________ AUTOMATED TRIMMING STATION PAGE ____________________________//
 
 export const atsIntro = [
-    `Webpage content development still in progress.`,
+    `On the manufacturing floor, there was a station that would trim Teflon to be flush with the edges of a bearing. Previously the system had a conveyor belt that would continously \
+    feed bearings to a station with two cobots and two drill presses that were fit with blades to trim. One cobot would pick up the bearing from the conveyor belt, trim one side of the \
+    bearing, then pass it to another cobot that trims the other side of the bearing. The issue with this system was that bearings would get stuck on the conveyor belt, preventing parts \
+    from getting to fed to cobots. This would cause the system to run dry, sometimes for periods as long as 12 hours. Along with that, the system was very inefficient in space and time. \
+    Concerns were raised from a start-up investor and the system was to be improved within a week, before the investor returned.`,
 ];
 
 export const atsMethods = [
-    `Comback soon for the complete information.`,
+    `The desired solution would reduce the space and cycle time of trimming station, while eliminating the possiblity of the system running without parts to run. To address the issue, in \
+    space, the drill presses were mounted horizontally, and across from eachother. This made it so that the cobot only had to make two linear motions to trim the Teflon from the bearings. \
+    This also reduced the amount of cobots needed to operate the station. To eliminate the possibility of the cobot station running with no parts, an infrared sensor was integrated to the \
+    beginning of the line to detect if a bearing is there for the cobot to grab.`,
+    `The system was programmed using an AutomationDirect PLC and HMI. A gripper was attached to a linear actuator that would take the bearing from the cobot and move them to the trimmers. \
+    An induction sensor was placed furthest to one side to allow a homing routine. Limit switches are on either side of the system to provide hard stops, preventing the linear actuator from \
+    damaging itself by running out of its bounds. Calculations were carried out to convert encoder data to real world units, and to create the logic needed to travel the required distances.`,
 ];
 
 export const atsResults = [
-    `Download my resume from the footer or side bar!`,
+    `The newly developed station ran 50 parts in around 10 minutes, which reduces the cycle time to around 25 minutes, equating to a 40% reduction in cycle time. The system was developed \
+    in under a week, and lead to increased funding from the investor.`,
 ];
