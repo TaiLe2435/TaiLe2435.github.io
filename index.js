@@ -39,6 +39,9 @@ import {
     atsIntro,
     atsMethods,
     atsResults,
+    hookIntro,
+    hookMethods,
+    hookResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -582,6 +585,12 @@ if (currentPage === "ats.html"){
   populateBio(atsIntro, "ats-intro");
   populateBio(atsMethods, "ats-methods");
   populateBio(atsResults, "ats-results");
+}
+
+if (currentPage === "hook.html"){
+  populateBio(hookIntro, "hook-intro");
+  populateBio(hookMethods, "hook-methods");
+  populateBio(hookResults, "hook-results");
 }
 
   populateLinks(footer, "footer");

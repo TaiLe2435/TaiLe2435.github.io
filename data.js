@@ -142,7 +142,7 @@ export const projects = {
             image: "images/hook.png",
             summary:
                 "Designed, cut out, welded, and automated a hook and tray system for an automated lift.",
-            preview: "pages/temp.html", // link video or presentation
+            preview: "pages/hook.html", // link video or presentation
             techStack: ["SolidWorks", "PLC", "UART", "Sensing", "Actuation"],
         },
         {
@@ -690,4 +690,19 @@ export const atsMethods = [
 export const atsResults = [
     `The newly developed station ran 50 parts in around 10 minutes, which reduces the cycle time to around 25 minutes, equating to a 40% reduction in cycle time. The system was developed \
     in under a week, and lead to increased funding from the investor.`,
+];
+
+//__________________ HOOK AND TRAY PAGE ____________________________//
+
+export const hookIntro = [
+    `Information will be added soon!`,
+];
+
+export const hookMethods = [
+    ``,
+    ``,
+];
+
+export const hookResults = [
+    ``,
 ];
