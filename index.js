@@ -42,6 +42,9 @@ import {
     hookIntro,
     hookMethods,
     hookResults,
+    cartIntro,
+    cartMethods,
+    cartResults,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -591,6 +594,12 @@ if (currentPage === "hook.html"){
   populateBio(hookIntro, "hook-intro");
   populateBio(hookMethods, "hook-methods");
   populateBio(hookResults, "hook-results");
+}
+
+if (currentPage === "smartcart.html"){
+  populateBio(cartIntro, "cart-intro");
+  populateBio(cartMethods, "cart-methods");
+  populateBio(cartResults, "cart-results");
 }
 
   populateLinks(footer, "footer");

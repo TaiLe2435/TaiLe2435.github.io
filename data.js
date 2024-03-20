@@ -150,7 +150,7 @@ export const projects = {
             image: "images/smart_cart.png",
             summary:
                 "Developed and prototyped an AMR compatible Smart Cart to automate job transitions on the manufacturing floor.",
-            preview: "pages/temp.html", // link video or presentation
+            preview: "pages/smartcart.html", // link video or presentation
             techStack: ["SolidWorks", "Raspberry Pi", "UART", "3D Printing", "Welding"],
         },
     ],
@@ -704,5 +704,20 @@ export const hookMethods = [
 ];
 
 export const hookResults = [
+    ``,
+];
+
+//__________________ SMART CART PAGE ____________________________//
+
+export const cartIntro = [
+    `Information will be added soon!`,
+];
+
+export const cartMethods = [
+    ``,
+    ``,
+];
+
+export const cartResults = [
     ``,
 ];
