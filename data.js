@@ -146,7 +146,7 @@ export const projects = {
             techStack: ["SolidWorks", "PLC", "UART", "Sensing", "Actuation"],
         },
         {
-            projectName: "Smart Cart",
+            projectName: "Development of a Mechatronic Smart Cart for Material Handling",
             image: "images/smart_cart.png",
             summary:
                 "Developed and prototyped an AMR compatible Smart Cart to automate job transitions on the manufacturing floor.",
