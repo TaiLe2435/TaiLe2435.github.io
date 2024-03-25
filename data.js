@@ -695,16 +695,23 @@ export const atsResults = [
 //__________________ HOOK AND TRAY PAGE ____________________________//
 
 export const hookIntro = [
-    `Information will be added soon!`,
+    `For Applied Cobotics Cobot Feeder, shown in Figure 1, a new hook and tray retrieval system was desired. The previous design used a single pincher that would bend and damage \
+    the previous aluminum trays due to the single pincher creating a concentrated force in one point on the tray. Along with that, the system ran on open-loop control, so if the tray \
+    was misplaced on the storage rack, the hook would either miss during retrieval, or go too far forward and bend the tray in half when attempting to latch on.`,
 ];
 
 export const hookMethods = [
-    ``,
-    ``,
+    `To eliminate these issues a new hook and tray design were created and prototyped. The new hook design featured four points of contact to latch onto a tray, more evenly distributing \
+    the forces, a lock and key so that in case of malfunction the hook could manually be released from the tray, and a housing that embedded an induction sensor so that the tray \
+    retrival processes could be automated.`,
+    `For the tray redesign, the material was swapped from aluminum to steel to avoid common issues of warping and bending due to material handling. The design consisted of a thin piece \
+    of sheet metal with the corners removed. After the edges were bent up, the corners would then be welded on and smoothed out. For placement of parts within the tray, custom plastic \
+    thermoformed trays were created to fit specific parts.`,
 ];
 
 export const hookResults = [
-    ``,
+    `Rapid prototyping these parts consisted of using a waterjet, angle grinder, sheet metal bending brakes, and MIG welder as well as 3D printers. With the completion of these prototypes, \ 
+    the issues of trays bending and breaking were reduced drastically. These designs laid the foundation for future iteration and improvement into the tray retrieval system.`,
 ];
 
 //__________________ SMART CART PAGE ____________________________//
