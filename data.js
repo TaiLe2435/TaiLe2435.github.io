@@ -717,14 +717,15 @@ export const hookResults = [
 //__________________ SMART CART PAGE ____________________________//
 
 export const cartIntro = [
-    `Information will be added soon!`,
+    `The focus of this project was to design an autonomous material handling cart that can communicate with robotics and automation equipment. The cart would be self-driven and capable of \
+    determining where in the shop it is needed via job routing by connecting to an autonoumous guided vehicle (AGV). The cart had to weigh less than 200 lbs empty, hold at least 15 trays, be \
+    compatible with an AGV, and display job information as well as part status.`,
 ];
 
 export const cartMethods = [
-    ``,
-    ``,
+    `More information is coming soon!`,
 ];
 
 export const cartResults = [
-    ``,
+    `More information is coming soon!`,
 ];
