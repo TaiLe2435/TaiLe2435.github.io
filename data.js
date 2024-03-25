@@ -723,9 +723,17 @@ export const cartIntro = [
 ];
 
 export const cartMethods = [
-    `More information is coming soon!`,
+    `For the legs, a basic frame made up of square aluminum tubing that is bolted and welded together. Gussets were created to reinforce the base, and a sheet metal cover was \
+    designed to improve the aesthetics. The shelving part was designed to allow for a customizable amount of trays by having multiple slots for custom hooked angle irons to be placed.\ 
+    One side would have a monitor to display part and job information, the other side would house electronic components that needed to be constantly managed like SD slots, batteries, \
+    and protective electronics, while the top would house the electronics that are meant to be kept away from clients and customers. LED strips were embedded into the corners of the the \
+    cart to provide information to users about which trays have been ran or not. A warning light on top was placed to caution nearby workers that the cart is moving or a job is currently \
+    being done. After design was completed, finite element analysis was carried out to ensure the legs of the cart would be able to withstand a fully loaded cart. Electronics for this \
+    system were programmed using Arduino and Raspberry Pi mircocontrollers. The cart would communication with other automation equipment through RS232.`,
 ];
 
 export const cartResults = [
-    `More information is coming soon!`,
+    `Rapid prototyping of these parts consisted of using  a waterjet, angle grinder, and sheet metal bending brakes, as well as 3D printers. More experienced welders were asked to weld \
+    this system since aluminum is notorious for being difficult to weld. Unfortunately, the term ended before the project could be fully integrated and assembled, and has since been \
+    abandoned.`,
 ];
