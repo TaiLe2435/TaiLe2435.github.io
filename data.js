@@ -276,7 +276,7 @@ export const footer = [
             },
             {
                 text: "Resume",
-                link: "https://drive.google.com/file/d/1K599JIwuKtzGSx8V571oq0fc1B5BLylb/view?usp=sharing"
+                link: "../resume/TommyLe_Resume.pdf"
             },
         ],
     },
