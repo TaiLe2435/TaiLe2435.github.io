@@ -1,15 +1,19 @@
 //__________________ MAIN PAGE ____________________________//
 
 export const bio = [
-    `I have attended Northern Illinois University since 2019 where I graduated with a Bachelor's of Science in Mechatronics Engineering and am \ 
-    currently working towards my Master's in Mechanical Engineering. During my time at NIU, I have participated in the development of autonomous \
-    robots in Dr. Ji-Chul Ryu's Autonomous Robotic Manipulation Laboratory.`,
-    `Much of my work has involved the development and implementation of algorithms onto robotic systems. Examples of problems I have worked on \ 
-    deal with state estimation and control, path planning, mechatronic system integration, robotic hardware and software development, \ 
-    automation, and artificial intelligence.`,
-    `From my experiences I have developed skills in robot kinematics/dynamics, control theory, mechatronics, and embedded software development \ 
-    and upon graduation am looking to start a full-time position working on robotics hardware and software development dealing with manipulation \
-    and navigation.`,
+`I am a Mechatronics Engineer at Lam Research developing robot 
+and embedded firmware for semiconductor automation. I enjoy 
+solving practical robotics problems, from trajectory planning 
+and kinematic and dynamic modeling, to real-time and bare-metal 
+firmware. Occasionally, you will find me developing simulations to 
+test the algorithms I developed or building front end tools to 
+improve usability.`,
+
+`At Northern Illinois University, I obtained my B.S. in Mechatronics 
+Engineering and an M.S. in Mechanical Engineering, where I conducted 
+research on autonomous robots in Dr. Ji Chul Ryu's lab. My research was 
+centered around deploying state estimation and control, path planning, 
+and AI algorithms to physical robots with a focus on manipulation and navigation.`,
 ];
 
 export const skills = [
@@ -160,7 +164,7 @@ export const projects = {
             image: "images/plane displacement.png",
             summary:
                 "Performed structural analysis in COMSOL to emulate the behavior of a surgical probe with tissue.",
-            preview: "https://drive.google.com/file/d/1j7RRzrjk2dHGpqjIXVMlCyht4XTKhH_W/view?usp=sharing",
+            preview: "https://docs.google.com/presentation/d/1m0Bk4UYero73S0hbAQr-Ihpq-uHM0qXkVKUyGZPVsFs/edit?usp=sharing",
             techStack: ["COMSOL", "FEM"],
         },
         {
@@ -184,6 +188,16 @@ export const projects = {
 
 export const experience = [
     {
+        title: "Lam Research",
+        duration: "August 2024 - Present",
+        subtitle: "Mechatronics Engineer II - Embedded FW",
+        details: [`Developed robot application firmware for semiconductor wafer handling robots`,
+                  `Collaborated with cross-functional teams to design, implement, and test embedded software solutions for robotic systems and intelligent equipment used in semiconductor manufacturing`,
+                  `Created a simulation environment for robotic systems to validate firmware functionality and performance`],
+        tags: ["Robot Development", "Embedded Systems", "Control Theory", "Software Development"],
+        icon: "microchip",
+    },
+    {
         title: "Northern Illinois University | ARM and Omron Lab",
         duration: "October 2021 - Present",
         subtitle: "Research and Teaching Assistant",
@@ -200,7 +214,7 @@ export const experience = [
                   `Created automated test cases for major firmware and hardware releases`, 
                   `Developed motion planning functions for manipulators`],
         tags: ["Cyber Security", "Full-Stack Development","Automated Testing", "Manual Testing", "Motion Planning"],
-        icon: "microchip",
+        icon: "cog",
     },
     {
         title: "Argonne National Laboratory",
@@ -229,9 +243,7 @@ export const education = [
             "Focus in Robotics, Dynamics, and Controls",
             "Summa Cum Laude, 4.00 GPA"],
         tags: [
-            "Advanced Computing",
-            "Control Systems II",
-            "Finite Element Methods",
+            "Control Systems",
             "Robot Dynamics and Control",
             "Robot Vision Control",
             "Stochastic Estimation Control"
@@ -437,10 +449,10 @@ export const argonneResults = [
 
 export const attsIntro = [
     `An automation start-up company called Applied Cobotics sponsored this project. The company needed an \
-    electromechanical system that can test the cut quality of their lathe in the creation of lilnear bearings.\
+    electromechanical system that can test the cut quality of their lathe in the creation of linear bearings.\
     More specifically, they wanted to have a machine that can check the inner diameter of bearings, and automate \
     the quality control process of their robotic work cells.`,
-    `The solution was reqiured to be able to check the inner diameter of cylindrical bearings ranging from 1" to 2" \
+    `The solution was required to be able to check the inner diameter of cylindrical bearings ranging from 1" to 2" \
     inner diameters, be capable of sending a 24V digital output pulse and communicate through ethernet, allow for a \
     3 finger gripper to pick and place the bearing, and determine if the part is over or undersize and by how much \
     with a tolerance of +/- 0.0005".`,
